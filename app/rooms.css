@@ -1,0 +1,161 @@
+img.grandLevel
+{
+width:1500px;
+height:1500px;
+background:url(img/page1.png) 0 0;
+}
+img.sanJuanLevel
+{
+width:1500px;
+height:1500px;
+background:url(img/page2.png) 0 0;
+}
+img.mezanineLevel
+{
+width:1500px;
+height:1500px;
+background:url(img/page3.png) 0 0;
+}
+img.lobbyLevel
+{
+width:1500px;
+height:1500px;
+background:url(img/page4.png) 0 0;
+}
+
+
+
+img.elliotBay
+{
+width:275px;
+height:350px;
+background:url(img/page4.png) -700px -340px;
+}
+
+img.grand1
+{
+width:275px;
+height:400px;
+background:url(img/page1.png) -110px -260px;
+}
+img.grand2
+{
+width:275px;
+height:400px;
+background:url(./img/page1.png) -325px -260px;
+}
+img.grand3
+{
+width:350px;
+height:400px;
+background:url(img/page1.png) -550px -260px;
+}
+img.grandFoyer
+{
+width : 350px;
+height:400px;
+background:url(img/page1.png) -320px -625px;
+}
+img.grandCrescent
+{
+width : 350px;
+height : 200px;
+background:url(img/page1.png) -110px -870px;
+}
+img.fifthAvenueRoom
+{
+width : 350px;
+height : 230px;
+background :url(img/page1.png) -650px -870px;
+}
+
+img.parkingDeck
+{
+width:750px;
+height:550px;
+background:url(img/page2.png) -95px -120px;
+}
+img.vashon
+{
+width:220px;
+height:150px;
+background:url(img/page2.png) -440px -660px;
+}
+img.sanJuanFoyer
+{
+width:330px;
+height:190px;
+background:url(img/page2.png) -350px -790px;
+}
+img.whidbey
+{
+width:150px;
+height:130px;
+background:url(img/page2.png) -110px -910px;
+}
+img.orcas
+{
+width:150px;
+height:110px;
+background:url(img/page2.png) -200px -960px;
+}
+img.blackely
+{
+width:150px;
+height:130px;
+background:url(img/page2.png) -310px -930px;
+}
+img.cascadeFoyerSouth
+{
+width:220px;
+height:150px;
+background:url(img/page3.png) -900px -880px;
+}
+img.cascade
+{
+width:220px;
+height:330px;
+background:url(img/page3.png) -700px -660px;
+}
+img.glacierPeak
+{
+width:80px;
+height:150px;
+background:url(img/page3.png) -590px -660px;
+}
+img.sthelens
+{
+width:150px;
+height:150px;
+background:url(img/page3.png) -460px -660px;
+}
+img.stuart
+{
+width:100px;
+height:150px;
+background:url(img/page3.png) -380px -660px;
+}
+img.cascadeFoyerNorth
+{
+width:330px;
+height:190px;
+background:url(img/page3.png) -380px -790px;
+}
+img.baker
+{
+width:130px;
+height:130px;
+background:url(img/page3.png) -150px -910px;
+}
+img.adams
+{
+width:130px;
+height:130px;
+background:url(./img/page3.png) -240px -940px;
+}
+img.olympic
+{
+width:150px;
+height:130px;
+background:url(img/page3.png) -330px -930px;
+}

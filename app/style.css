@@ -1,0 +1,210 @@
+/* $Id$ */
+/**
+ * Sky
+ * http://drupal.org/project/sky
+ * http://drupal.org/user/88931
+ *
+ * Credits:
+ * Icons: http://www.icojoy.com/articles/44/
+ * Icons: http://www.icojoy.com/articles/46/
+ */
+/* @group Layout */
+
+
+/* @group Links */
+a,
+a:visited {
+  color: #314C74;
+  text-decoration: none;
+}
+a:hover,
+a.active {
+  color: #000;
+}
+/* @end */
+
+/* @group Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  clear: both;
+  display: block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  display: block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 140%;
+  margin: 0;
+}
+h2 {
+  font-size: 2.0em;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.6em;
+  text-align:center;
+}
+h4 {
+  font-size: 1.6em;
+font-weight: 400;
+font-style: normal;
+  text-align: left;
+  padding-left: 20px;
+  
+}
+h5 {
+  font-size: 1.6em;
+   text-align: left;
+
+}
+
+/* @end */
+
+/*main buttons group*/
+a.button{
+
+height: 64px;
+width: 64px; 
+    color:#000000;
+
+    font-family:'Lucida Grande', Verdana, Arial, sans-serif;
+    font-size:15px;
+    text-align:left;
+	 line-height: 95%;
+    border:1px solid #60b4e5;
+	 margin: 20px 20px 60px 20px;
+    float:left;
+    /*
+        CSS3 gradients for webkit and mozilla browsers fallback color for the rest:
+    */
+    background-color: #6291C0;    
+    box-shadow:3px 3px 3px #000000;
+    -moz-box-shadow:3px 3px 3px #000000;
+    -webkit-box-shadow:3px 3px 3px #000000;
+    border:1px solid #c0c8cd;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+}
+ 
+a.button:hover{
+    /* Lighter gradients for the hover effect */
+    text-decoration:none; 
+    background-color: #c0c8cd;
+    /* background-image:url('evolution_calendar.png');
+   background-image: -moz-linear-gradient(#6bbbe9, #57a5d4);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6bbbe9), to(#57a5d4)); */
+
+    box-shadow:3px 3px 3px #333;
+    -moz-box-shadow:3px 3px 3px #333;
+    -webkit-box-shadow:3px 3px 3px #333;
+}
+
+
+a.ibutton{
+
+height: 30px;
+width: 80px; 
+font-family: Arial, serif; 
+	color: black;
+    font-size:13px;
+	 line-height: 95%;
+    border:1px solid #60b4e5;
+	 padding: 5px 5px 0px 5px;
+    float:left;
+text-decoration:none; 
+background: url(img/ibtn.png) 0 0 ;
+    border:0px solid #c0c8cd;
+    border-radius:6px;
+clear: both;
+margin: 5px;
+}
+a.ibutton2{
+
+height: 30px;
+width: 80px; 
+font-family: Arial, serif; 
+	color: black;
+    font-size:13px;
+	 line-height: 95%;
+    border:1px solid #60b4e5;
+	 padding: 5px 5px 0px 5px;
+    float:left;
+text-decoration:none; 
+background: url(img/ibtn.png) 0 0 ;
+    border:0px solid #c0c8cd;
+    border-radius:6px;
+clear: none;
+margin: 5px;
+}
+
+/*end of main buttons*/
+/*style of floor plans*/
+.zitem {
+    width:150px;
+    height:160px;  
+    border:2px solid #222; 
+    margin:20px 20px 20px 0;
+     
+    /* required to hide the image after resized */
+    overflow:hidden;
+     
+    /* for child absolute position */
+    position:relative;
+     
+    /* display div in line */
+    float:left;
+}
+ 
+.zitem .caption {
+    width:140px;
+    height:30px;
+    background:#000;
+    color:#fff;
+         
+    /* fix it at the bottom */
+    position:relative;
+    bottom:-1px; /* fix IE issue */
+    left:0;
+ 
+    /* hide it by default */
+    display:none;
+ 
+    /* opacity setting */
+    filter:alpha(opacity=70);    /* ie  */
+    -moz-opacity:0.7;    /* old mozilla browser like netscape  */
+    -khtml-opacity: 0.7;    /* for really really old safari */ 
+    opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+ 
+}
+ 
+.zitem .caption a {
+    text-decoration:none;
+    color:#fff;
+    font-size:12px;
+     
+    /* add spacing and make the whole row clickable*/
+    padding:5px;
+    display:block;
+}
+ 
+img {
+    border:0;
+     
+    /* allow javascript moves the img position*/
+    position:relative;
+}
+
+
+/*end style of floor plans*/

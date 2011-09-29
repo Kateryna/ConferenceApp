@@ -1,0 +1,505 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+	    <title>Main page</title>
+
+		<link type="text/css" rel="stylesheet" media="all" href="app/layout.css">
+		<link rel="stylesheet" type="text/css" media="all" href="app/tabs.css"> 
+		<link type="text/css" rel="stylesheet" media="all" href="app/programday.css">
+		<link type="text/css" rel="stylesheet" media="all" href="app/default.css">
+		<script type="text/javascript" src="app/commonjs.js"></script>	
+		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="app/jquery.tools.min.js"></script> 
+		<script type="text/javascript" src="app/jquery-impromptu.js"></script>
+		<script type="text/javascript" src="app/programday.js"></script>
+			<script type="text/javascript" src="app/localcalendar.js"></script>	
+		<script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
+		
+		
+			<link rel='stylesheet' type='text/css' href='app/jquery.addtocal.css' />
+		<link rel='stylesheet' type='text/css' href='app/jquery-ui.css' />
+		
+
+		<script type='text/javascript' src='app/jquery-ui.min.js'></script>		
+		<script type='text/javascript' src='app/rfc3339date.js'></script>
+		<script type='text/javascript' src='app/jquery.addtocal.js'></script>
+		<script type="text/javascript" >
+		$(function() {
+			// setup ul.tabs to work as tabs for each div directly under div.panes
+			$("ul.tabs").tabs("div.panes > div");
+		});
+	</script>
+	
+    </head>
+	
+	<body>
+<div align="left" style=" background:#6291C0; padding:0px; marging-top:0px;">
+<FORM ><INPUT TYPE="BUTTON" VALUE="Go Back" class="backbutton"
+ONCLICK="location='index.html'"></FORM>
+</div>
+        <div id="programForDay" align="center">
+			<!-- the tabs -->
+			<ul class="tabs">
+			<li><a>Mon</a></li>
+			<li><a>Tue</a></li>
+			<li><a>Wed</a></li>
+			<li><a>Thu</a></li>
+			<li><a>Fri</a></li>
+			<li><a>Sat</a></li>
+			</ul>
+			<!-- tab "panes" -->
+
+			<div class="panes">
+				<div>		
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="35">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+					</colgroup> 
+			 		<tr><p class="date">Monday, August 29, 2011</p></tr>
+					<tr>
+					  <td class="time">8:00 - 8:30</td>
+					  <td colspan="3" class="event">Breakfast-Cascade North & San Juan Foyers</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="time">8:30 - 10:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DMSNpart1')"><div class="sessionFirstTypeDiv">DMSN</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailMergedInfo('DBRank/MUDpart1')"><div class="sessionFirstTypeDiv">DBRank/MUD</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DBPLpart1')"><div class="sessionFirstTypeDiv">DBPL</div></a></td>
+					</tr>		
+					<tr>	
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('QDBpart1')"><div class="sessionFirstTypeDiv">QDB</div></a></td>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getDetailInfo('TPCTCpart1')"><div class="sessionFirstTypeDiv">TPCTC</div></a></td>
+					</tr>	
+					<tr>
+						<td class="time">10:00 - 10:30</td>
+						<td colspan="3" class="event">Coffee Break-Cascade North & San Juan Foyers</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="time">10:30 - 12:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DMSNpart2')"><div class="sessionFirstTypeDiv">DMSN</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailMergedInfo('DBRank/MUDpart2')"><div class="sessionFirstTypeDiv">DBRank/MUD</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DBPLpart2')"><div class="sessionFirstTypeDiv">DBPL</div></a></td>
+					</tr>
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('QDBpart2')"><div class="sessionFirstTypeDiv">QDB</div></a></td>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getDetailInfo('TPCTCpart2')"><div class="sessionFirstTypeDiv">TPCTC</div></a></td>
+					</tr>	
+								 
+					<tr>
+						<td class="time" height="70">12:00 - 1:30</td>
+						<td colspan="3" class="event" height="70">Lunch Provided-Grand 3</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="time">1:30 - 3:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DMSNpart3')"><div class="sessionFirstTypeDiv">DMSN</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailMergedInfo('DBRank/MUDpart3')"><div class="sessionFirstTypeDiv">DBRank/MUD</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DBPLpart3')"><div class="sessionFirstTypeDiv">DBPL</div></a></td>
+					</tr> 
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('QDBpart3')"><div class="sessionFirstTypeDiv">QDB</div></a></td>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getDetailInfo('TPCTCpart3')"><div class="sessionFirstTypeDiv">TPCTC</div></a></td>
+					</tr>
+					<tr>
+						<td class="time">3:00 - 3:30</td>
+						<td colspan="3" class="event">Coffee Break-Cascade North & San Juan Foyers</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="time">3:30 - 5:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DMSNpart4')"><div class="sessionFirstTypeDiv">DMSN</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailMergedInfo('DBRank/MUDpart4')"><div class="sessionFirstTypeDiv">DBRank/MUD</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('DBPLpart4')"><div class="sessionFirstTypeDiv">DBPL</div></a></td>
+					</tr>
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('QDBpart4')"><div class="sessionFirstTypeDiv">QDB</div></a></td>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getDetailInfo('TPCTCpart4')"><div class="sessionFirstTypeDiv">TPCTC</div></a></td>
+					</tr>
+					<tr>
+						<td class="time" height="70">6:00 - 9:00</td>
+						<td colspan="3" class="event" height="70">Welcome Reception-Grand 3</td>
+					</tr>
+					<tr height="25"></tr>
+				</table>
+				</div>
+	
+				<div>
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="40">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+					</colgroup> 
+					<tr><p class="date">Tuesday, August 30, 2011</p></tr>
+					<tr>
+						<td class="time">8:00 - 8:30</td>
+						<td colspan="4" class="event">Breakfast-Grand Foyer</td>
+					</tr>
+					<tr>
+						<td class="time">8:30 - 8:45</td>
+						<td colspan="4" class="event">Opening Ceremony, Grand 1 &amp; 2</td>
+					</tr>
+			 		<tr>
+						<td class="time">8:45 - 10:00</td>
+						<td colspan="4" class="sessionFirstType"><a    onclick="getInfo('Keynote 1')"><div class="sessionFirstTypeDiv">Keynote 1: Tim O'Reilly (Grand 1 &amp; 2)</div></a></td>
+					</tr>
+					<tr>
+						<td class="time">10:00 - 10:30</td>
+						<td colspan="4" class="event">Coffee Break-Grand Foyer</td>
+					</tr>
+		 			<tr>
+						<td rowspan="3" class="time">10:30 - 12:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 1')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 1:</font><font class="sessionFont2"><br>Distributed Systems<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 2')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 2:</font><font class="sessionFont2"><br>Entity Matching<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Industrial Session 1')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Industrial 1:</font><font class="sessionFont2"><br>DB System Testing, Debugging &amp; Analysis<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 3')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 3:</font><font class="sessionFont2"><br>Web Processing<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Tutorial 1')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Tutorial 1:</font><font class="sessionFont2"><br>BI</font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session A')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Demo A:</font><font class="sessionFont2"><br>Information Integration and Retrieval</font></div></a></td>
+					</tr>	
+					<tr>
+						<td class="time" height="70">12:00 - 1:30</td>
+						<td colspan="4" class="event" height="70">Lunch Provided-Grand 3</td>
+					</tr> 			 
+					<tr>
+						<td rowspan="3" class="time">1:30 - 3:30</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 4')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 4:</font><font class="sessionFont2"><br>GeoSpatial<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 5')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 5:</font><font class="sessionFont2"><br>Uncertain Data<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 6')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 6:</font><font class="sessionFont2"><br>Database Design<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 7')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 7:</font><font class="sessionFont2"><br>Query Processing<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td  class="sessionThirdType"><a    onclick="getInfo('Challenges and Vision Session 1')"><div class="sessionSecondTypeDiv">Challenges and Vision 1</div></a></td>
+						<td class="sessionSecondType"><a    onclick="getInfo('Tutorial 2')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 2:</font><font class="sessionFont2"><br>Flash Storage<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session B')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Demo B:</font><font class="sessionFont2"><br>Modern HW, Streaming and Benchmarking</font></div></a></td>
+					</tr>
+					<tr>
+						<td class="time">3:30 - 4:00</td>
+						<td colspan="4" class="event">Coffe Break-Grand Foyer-</td>
+					</tr>
+		 			<tr>
+						<td rowspan="3" class="time">4:00 - 6:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 8')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 8:</font><font class="sessionFont2"><br>Graph Data<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 9')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 9:</font><font class="sessionFont2"><br>New HW Architecture<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 10')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 10:</font><font class="sessionFont2"><br>Causality, Quality, Dependencies<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Panel 1')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Panel 1:</font><font class="sessionFont2"><br>Data Mangement for Meeting Global Health Challenges<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td  class="sessionThirdType"><a    onclick="getInfo('Challenges and Vision Session 2')"><div class="sessionSecondTypeDiv">Challenges and Vision 2</div></a></td>
+						<td class="sessionSecondType"><a    onclick="getInfo('Tutorial 2')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 2:</font><font class="sessionFont2"><br>Flash Storage<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session C')"><div class="sessionSecondTypeDiv">
+  					    <font class="sessionFont1">Demo C:</font><font class="sessionFont2"><br>MapReduce, Crowdsourcing and Mining</font></div></a></td>
+					</tr>
+					<tr>
+						<td class="time" height="70">6:00 - 9:00</td>
+						<td colspan="4" class="event" height="70">Microsoft Reception-Grand 3</td>
+					</tr>
+		 			<tr height="25"></tr>
+				</table>	
+				</div>
+	
+				<div>
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="40">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+					</colgroup> 
+					<tr><p class="date">Wednesday, August 31, 2011</p></tr>
+					<tr>
+						<td class="time">8:00 - 8:30</td>
+						<td colspan="4" class="event">Breakfast-Grand Foyer</td>
+					</tr>
+					<tr>
+						<td class="time">8:30 - 9:00</td>
+						<td colspan="4" class="event">Reports: PC Chairs, VLDB 2012 General Chair, VLDB Endowment (Grand 1 & 2)</td>
+					</tr>
+					<tr>
+						<td class="time">9:00 - 10:00</td>
+						<td colspan="4" class="sessionFirstType"><a    onclick="getInfo('Keynote 2')"><div class="sessionFirstTypeDiv">Keynote 2: David Campbell-Grand 1 &amp; 2</div></a></td>
+					</tr>
+		 			<tr>
+						<td class="time">10:00 - 10:30</td>
+						<td colspan="4" class="event">Coffee Break-Grand Foyer</td>
+					</tr>
+					<tr>
+						<td rowspan="3" class="time">10:30 - 12:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 11')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 11:</font><font class="sessionFont2"><br>Graph Data<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 12')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 12:</font><font class="sessionFont2"><br>Cloud Computing and High Availability<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Industrial Session 2')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Industrial 2:</font><font class="sessionFont2"><br>Large Scale Analytics<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 13')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 13:</font><font class="sessionFont2"><br>HCI<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Tutorial 3')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 3:</font><font class="sessionFont2"><br>Deep Web</font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session B')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Demo B:</font><font class="sessionFont2"><br>Modern HW, Streaming and Benchmarking</font></div></a></td>
+					</tr>	 
+					<tr>
+						<td class="time" height="70">12:00 - 1:30</td>
+						<td colspan="4" class="event" height="70">Lunch Provided (Grand 3)</td>
+					</tr> 		 
+					<tr>
+						<td rowspan="3" class="time">1:30 - 3:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 14')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 14:</font><font class="sessionFont2"><br>Integrity Maintenance<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 15')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 15:</font><font class="sessionFont2"><br>Distributed Systems<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Industrial Session 3')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Industrial 3:</font><font class="sessionFont2"><br>Techniques for Large-Scale Data Management<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 16')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 16:</font><font class="sessionFont2"><br>Streams and Events<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Tutorial 4')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 4:</font><font class="sessionFont2"><br>Crowd-sourcing</font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session C')"><div class="sessionSecondTypeDiv">
+  					    <font class="sessionFont1">Demo C:</font><font class="sessionFont2"><br>MapReduce, Crowdsourcing and Mining</font></div></a></td>
+					</tr>	 
+					<tr>
+						<td class="time">3:00 - 3:30</td>
+						<td colspan="4" class="event">Coffe Break (Grand Foyer)</td>
+					</tr>
+					<tr>
+						<td rowspan="3" class="time">3:30 - 5:30</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 17')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 17:</font><font class="sessionFont2"><br>Privacy and Protection<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 18')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 18:</font><font class="sessionFont2"><br>MapReduce and Hadoop<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 19')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 19:</font><font class="sessionFont2"><br>Ranking<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 20')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 20:</font><font class="sessionFont2"><br>Statistical Methods<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td  class="sessionSecondType"><a    onclick="getInfo('Panel 2')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Panel 2:</font><font class="sessionFont2"><br>Maximizing Impact<br></font></div></a></td>
+						<td class="sessionSecondType"><a    onclick="getInfo('Tutorial 4')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 4:</font><font class="sessionFont2"><br>Crowd-sourcing<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session A')"><div class="sessionSecondTypeDiv">
+							<font class="sessionFont1">Demo A:</font><font class="sessionFont2"><br>Information Integration and Retrieval</font></div></a></td>
+					</tr>
+		 			<tr>
+						<td class="time">6:00 - 6:30</td>
+						<td colspan="4" class="event">Buses depart</td>
+					</tr>
+		 			<tr>
+						<td class="time">6:30 - 7:30</td>
+						<td colspan="4" class="event">Reception and Viewing Time-Museum of Flight</td>
+					</tr>
+					<tr>
+						<td class="time" height="70">7:30 - 10:30</td>
+						<td colspan="4" class="event" height="70">Banquet-Museum of Flight</td>
+					</tr>
+					<tr height="25"></tr>
+				</table>	
+				</div>
+				
+				<div>
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="40">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+					</colgroup> 
+			 		<tr><p class="date">Thursday, September 1, 2011</p></tr>
+			 		<tr>
+						<td class="time">8:00 - 8:30</td>
+						<td colspan="4" class="event">Breakfast-Grand Foyer</td>
+					</tr>
+			 		<tr>
+						<td class="time">8:30 - 10:00</td>
+						<td colspan="4" class="event" height="90">VLDB Awards and Invited Talk by 10-year Best Paper Award Winners (Grand 1 &amp; 2)</td>
+					</tr>
+					<tr>
+						<td class="time">10:00 - 10:30</td>
+						<td colspan="4" class="event">Coffe Break-Grand Foyer</td>
+					</tr>
+					<tr>
+						<td rowspan="3" class="time">10:30 - 12:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 21')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 21:</font><font class="sessionFont2"><br>Graph Data<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 22')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 22:</font><font class="sessionFont2"><br>Data Integration<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getInfo('PhD Workshop 1')"><div class="sessionFirstTypeDiv">PhD Workshop 1</div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 23')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 23:</font><font class="sessionFont2"><br>Social Networks<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Tutorial 5')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 5:</font><font class="sessionFont2"><br>Graph Data Mgmt</font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session C')"><div class="sessionSecondTypeDiv">
+  					    <font class="sessionFont1">Demo C:</font><font class="sessionFont2"><br>MapReduce, Crowdsourcing and Mining</font></div></a></td>
+					</tr>	 
+					<tr>
+						<td class="time" height="70">12:00 - 1:30</td>
+						<td colspan="4" class="event" height="70">Lunch Provided-Grand 3</td>
+					</tr> 
+					<tr>
+						<td rowspan="3" class="time">1:30 - 3:00</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 24')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 24:</font><font class="sessionFont2"><br>Searching and Ranking<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 25')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 25:</font><font class="sessionFont2"><br>Statistical Methods<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getInfo('PhD Workshop 2')"><div class="sessionFirstTypeDiv">PhD Workshop 2</div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Industrial Session 4')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Industrial 4:</font><font class="sessionFont2"><br>Large Scale Distributed Systems<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td class="sessionSecondType"><a    onclick="getInfo('Research Session 26')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 26:</font><font class="sessionFont2"><br>Recom- mender Systems<br></font></div></a></td>
+						<td class="sessionSecondType"><a    onclick="getInfo('Tutorial 6')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 6:</font><font class="sessionFont2"><br>Social Nets<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session B')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Demo B:</font><font class="sessionFont2"><br>Modern HW, Streaming and Benchmarking</font></div></a></td>
+					</tr>
+					<tr>
+						<td class="time">3:00 - 3:30</td>
+						<td colspan="4" class="event">Coffe Break-Grand Foyer</td>
+					</tr>
+		 			<td rowspan="3" class="time">3:30 - 5:30</td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 27')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 27:</font><font class="sessionFont2"><br>GPU-based Architectures and Column-store Indexing<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 28')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 28:</font><font class="sessionFont2"><br>Transaction Processing<br></font></div></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="sessionFirstType"><a    onclick="getInfo('PhD Workshop 3')"><div class="sessionFirstTypeDiv">PhD Workshop 3</div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Research Session 29')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 29:</font><font class="sessionFont2"><br>Web Data<br></font></div></a></td>
+					</tr>	
+					<tr>
+						<td class="sessionSecondType"><a    onclick="getInfo('Research Session 30')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Research 30:</font><font class="sessionFont2"><br>Skyline and String Matching<br></font></div></a></td>
+						<td class="sessionSecondType"><a    onclick="getInfo('Tutorial 6')"><div class="sessionSecondTypeDiv"><font class="sessionFont1">Tutorial 6:</font><font class="sessionFont2"><br>Social Nets<br></font></div></a></td>
+						<td colspan="2" class="sessionSecondType"><a    onclick="getInfo('Demo Session A')"><div class="sessionSecondTypeDiv">
+						<font class="sessionFont1">Demo A:</font><font class="sessionFont2"><br>Information Integration and Retrieval</font></div></a></td>
+					</tr>
+					<tr height="25"></tr>
+				</table>
+				</div>
+				
+				<div>
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="35">
+						<col width="65">
+						<col width="65">
+						<col width="65">
+					</colgroup> 
+			 		<tr><p class="date">Friday, September 2, 2011</p></tr>
+					<tr>
+					  <td class="time">8:00 - 8:30</td>
+					  <td colspan="3" class="event">Breakfast-Cascade North & San Juan Foyers</td>
+					</tr>
+		 			<tr>
+						<td rowspan="2" class="time">8:30 - 10:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('PersDBpart1')"><div class="sessionFirstTypeDiv">PersDB</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart1FR')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('SDMpart1')"><div class="sessionFirstTypeDiv">SDM</div></a></td>
+					</tr>		
+					<tr>	
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('BIRTEpart1')"><div class="sessionFirstTypeDiv">BIRTE</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('VLDSpart1')"><div class="sessionFirstTypeDiv">VLDS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('ADMSpart1')"><div class="sessionFirstTypeDiv">ADMS</div></a></td>
+					</tr>	
+		 			<tr>
+						<td class="time">10:00 - 10:30</td>
+						<td colspan="3" class="event">Coffee Break-Cascade North & San Juan Foyers</td>
+					</tr>
+		 			<tr>
+						<td rowspan="2" class="time">10:30 - 12:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('PersDBpart2')"><div class="sessionFirstTypeDiv">PersDB</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart2FR')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('SDMpart2')"><div class="sessionFirstTypeDiv">SDM</div></a></td>
+					</tr>
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('BIRTEpart2')"><div class="sessionFirstTypeDiv">BIRTE</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('VLDSpart2')"><div class="sessionFirstTypeDiv">VLDS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('ADMSpart2')"><div class="sessionFirstTypeDiv">ADMS</div></a></td>
+					</tr>	
+		 			<tr>
+						<td class="time" height="70">12:00 - 1:30</td>
+						<td colspan="3" class="event" height="70">Lunch Provided-Grand 3</td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="time">1:30 - 3:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('PersDBpart3')"><div class="sessionFirstTypeDiv">PersDB</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart3FR')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('SDMpart3')"><div class="sessionFirstTypeDiv">SDM</div></a></td>
+					</tr> 
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('BIRTEpart3')"><div class="sessionFirstTypeDiv">BIRTE</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('VLDSpart3')"><div class="sessionFirstTypeDiv">VLDS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('ADMSpart3')"><div class="sessionFirstTypeDiv">ADMS</div></a></td>
+					</tr>
+					<tr>
+						<td class="time">3:00 - 3:30</td>
+						<td colspan="3" class="event">Coffee Break-Cascade North & San Juan Foyers</td>
+					</tr>
+		 			<tr>
+						<td rowspan="2" class="time">3:30 - 5:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('PersDBpart4')"><div class="sessionFirstTypeDiv">PersDB</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart4FR')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('SDMpart4')"><div class="sessionFirstTypeDiv">SDM</div></a></td>
+					</tr>
+					<tr>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('BIRTEpart4')"><div class="sessionFirstTypeDiv">BIRTE</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('VLDSpart4')"><div class="sessionFirstTypeDiv">VLDS</div></a></td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('ADMSpart4')"><div class="sessionFirstTypeDiv">ADMS</div></a></td>
+					</tr>
+					<tr height="25"></tr>
+				</table>
+				</div>
+	
+				<div>
+				<table style="bordborder-collapse:collapse;table-layout:fixed;width:480px">
+					<colgroup>
+						<col width="30">
+						<col width="70">
+					</colgroup> 
+					<tr><p class="date">Saturday, September 3, 2011</p></tr>
+					<tr>
+					  <td class="time">8:00 - 8:30</td>
+					  <td class="event">Breakfast</td>
+					</tr>
+					<tr>
+						<td class="time">8:30 - 10:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart1SAT')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+					</tr>	
+		 			<tr>
+					  <td class="time">10:00 - 10:30</td>
+					  <td class="event">Coffe Break</td>
+					</tr>
+					<tr>
+						<td class="time">10:30 - 12:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart2SAT')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+					</tr>	
+					<tr>
+					  <td class="time">12:00 - 1:30</td>
+					  <td class="event" height="70">Lunch Provided</td>
+					</tr>
+					<tr>
+						<td class="time">1:30 - 3:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart3SAT')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+					</tr>	
+					<tr>
+					  <td class="time">3:00 - 3:30</td>
+					  <td class="event">Coffe Break</td>
+					</tr>
+					<tr>
+						<td class="time">3:30 - 5:00</td>
+						<td class="sessionFirstType"><a    onclick="getDetailInfo('LADISpart4SAT')"><div class="sessionFirstTypeDiv">LADIS</div></a></td>
+					</tr>	
+					<tr height="25"></tr>
+				</table>
+				</div>
+			
+			</div>
+		</div>
+	</body>
+</html>
