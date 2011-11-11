@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+	    <title>Tracks</title>
+		<link type="text/css" rel="stylesheet" media="all" href="./app/layout.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/style.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/programday.css">
+
+		<script type="text/javascript" src="./app/androidScript.js"></script>
+		<script type="text/javascript" src="./app/commonjs.js"></script>
+		<script type="text/javascript" src="./app/categories.js"></script>
+    </head>
+	
+	<body>
+<div style=" background:#6291C0; padding:0px; marging-top:0px;">
+<div>  <img src="./img/vldb2011header.png" width="100%"></div>
+<div align="left" >
+<FORM ><INPUT TYPE="BUTTON" VALUE="Go Back" class="backbutton"
+ONCLICK="location='index.html'"></FORM></div>
+</div></div>
+        <div id="main">
+			<div>
+			<a class="button" onclick="return goToCategory('Industrial')"><div><img src="img/industry.png"></img></div><br/><div><b>Industrial Track</b></div></a> 
+			<a href="#" class="button" onclick="return goToCategory('Research')"><div><img src="img/research.png"></img></div><br/><div><b>Research Track</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('Demo')"><div><img src="img/demonstration.png"></img></div><br/><div><b>Demo Track</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('Tutorial')"><div><img src="img/tutorial.png"></img></div><br/><div><b>Tutorials</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('ChallengesAndVision')"><div><img src="img/vision.png"></img></div><br/><div><b>Challenges and Vision Track</b></div></a> 
+			<a href="#" class="button" onclick="return goToCategory('PhDWorkshop')"><div><img src="img/phdworkshop.png"></img></div><br/><div><b>PhD Workshop</b></div></a> 
+			</div>
+        </div>
+
+     </body>
+</html>
