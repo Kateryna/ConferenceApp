@@ -66,6 +66,7 @@ font-weight: bold;
 
 </style>
 <script type="text/javascript" >
+
 document.addEventListener("deviceready", onDeviceReady, false);
 $().ready(function() {
 		var $scrollingDiv = $("#right-sidebar");
@@ -89,7 +90,7 @@ $().ready(function() {
     // Handle the back button
     //
     function onBackKeyDown() {
-    window.location="index.html";
+    location="index.html";
     }
 
 </script>
@@ -97,17 +98,18 @@ $().ready(function() {
 	
 	<body onload="init()">
 
-<div style=" background:#6291C0; padding:0px; marging-top:0px;" >
+<div style=" background:#6291C0; padding:0px; marging-top:0px;">
 
 <div align="left" >
 <FORM><INPUT TYPE="BUTTON" VALUE="Go Back" class="backbutton"
-ONCLICK="location='index.html'"><INPUT TYPE="BUTTON" VALUE="Sort by first name" class="bigbutton" ONCLICK="location='authors.html'"
-></FORM></div>
-</div></div><br>
+ONCLICK="location='index.html'"><INPUT TYPE="BUTTON" VALUE="Sort by last name" class="bigbutton"
+ONCLICK="location='authLName.html'"><INPUT TYPE="BUTTON" VALUE="Sort by first name" class="bigbutton"
+ONCLICK="location='authFName.html'"></FORM></div>
+</div><br>
 	
 <!-- Sidebar-->
  
-<div id="right-sidebar"> 
+<div id="right-sidebar" > 
 <ul class="side">
 <li><div><a href="#A" onmouseover="location='#A'"> A</a></div></li>
 <li><div><a href="#B" onmouseover="location='#B'"> B</a></div></li>
@@ -137,17 +139,11 @@ ONCLICK="location='index.html'"><INPUT TYPE="BUTTON" VALUE="Sort by first name" 
 <li><div><a href="#Z" onmouseover="location='#Z'"> Z</a></div></li>
 </ul>
 </div>
-
+     		
         <div id="programForDay" align="center">
-
 
 			<!-- tab "panes" -->
 
-			<div ="center" style="width: 95%; text-align: center">
-				
-      		<div id="resultL" style="padding-top:15px;">
-      		</div>   
-    	</div>
-    	</div>
-</body>
-</html>
+			<div style="width: 95%; text-align: center">
+				<div id="resultF" style="padding-top:15px;">  
+      		

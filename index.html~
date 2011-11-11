@@ -55,7 +55,7 @@
 	<hr style="clear: both;"/>
 			
 			<a href="appcalendar.html" class="button"><div><img src="img/configdate.png"></img></div><br/><div><b>My calendar</b></div></a>
-			<a href="Program.html" class="button"><div><img src="img/evolutioncalendar.png"></img></div><br/><div><b>Conference program</b></div></a>
+			<a href="program.html" class="button"><div><img src="img/evolutioncalendar.png"></img></div><br/><div><b>Conference program</b></div></a>
 		
 			</div>
 			<br/>

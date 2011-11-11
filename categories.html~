@@ -21,12 +21,12 @@ ONCLICK="location='index.html'"></FORM></div>
 </div></div>
         <div id="main">
 			<div>
-				<a href="Industrial.html" class="button"><div><img src="img/industry.png"></img></div><br/><div><b>Industrial Track</b></div></a>
-			<a href="Research.html" class="button" ><div><img src="img/research.png"></img></div><br/><div><b>Research Track</b></div></a>
-			<a href="Demo.html" class="button" ><div><img src="img/demonstration.png"></img></div><br/><div><b>Demo Track</b></div></a>
-			<a href="Tutorial.html" class="button" ><div><img src="img/tutorial.png"></img></div><br/><div><b>Tutorials</b></div></a>
-			<a href="ChallengesAndVision.html" class="button" ><div><img src="img/vision.png"></img></div><br/><div><b>Challenges and Vision Track</b></div></a> 
-			<a href="PhDWorkshop.html" class="button" ><div><img src="img/phdworkshop.png"></img></div><br/><div><b>PhD Workshop</b></div></a> 
+			<a class="button" onclick="return goToCategory('Industrial')"><div><img src="img/industry.png"></img></div><br/><div><b>Industrial Track</b></div></a> 
+			<a href="#" class="button" onclick="return goToCategory('Research')"><div><img src="img/research.png"></img></div><br/><div><b>Research Track</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('Demo')"><div><img src="img/demonstration.png"></img></div><br/><div><b>Demo Track</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('Tutorial')"><div><img src="img/tutorial.png"></img></div><br/><div><b>Tutorials</b></div></a>
+			<a href="#" class="button" onclick="return goToCategory('ChallengesAndVision')"><div><img src="img/vision.png"></img></div><br/><div><b>Challenges and Vision Track</b></div></a> 
+			<a href="#" class="button" onclick="return goToCategory('PhDWorkshop')"><div><img src="img/phdworkshop.png"></img></div><br/><div><b>PhD Workshop</b></div></a> 
 			</div>
         </div>
 
