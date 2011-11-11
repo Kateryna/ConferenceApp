@@ -101,6 +101,8 @@
 		<submissionAuthors>Wolfgang Gatterbauer (University of Washington)</submissionAuthors>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>673</submissionId>
@@ -110,6 +112,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>696</submissionId>
@@ -119,6 +123,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>706</submissionId>
@@ -128,6 +134,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>739</submissionId>
@@ -137,6 +145,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>743</submissionId>
@@ -146,6 +156,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>759</submissionId>
@@ -155,6 +167,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>783</submissionId>
@@ -164,6 +178,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>790</submissionId>
@@ -173,6 +189,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>801</submissionId>
@@ -182,6 +200,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 10:30:00 AM</startDate>
+		<endDate>8/30/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session A</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>805</submissionId>
@@ -191,6 +211,8 @@
 		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>676</submissionId>
@@ -200,6 +222,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>686</submissionId>
@@ -209,6 +233,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>689</submissionId>
@@ -218,6 +244,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>731</submissionId>
@@ -227,6 +255,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>745</submissionId>
@@ -236,6 +266,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>752</submissionId>
@@ -245,6 +277,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>761</submissionId>
@@ -254,6 +288,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
 		<sessionName>Demo Session B</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>786</submissionId>
@@ -263,6 +299,8 @@
 		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>663</submissionId>
@@ -272,6 +310,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>695</submissionId>
@@ -281,6 +321,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>705</submissionId>
@@ -290,6 +332,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>713</submissionId>
@@ -299,6 +343,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>755</submissionId>
@@ -308,6 +354,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>772</submissionId>
@@ -317,6 +365,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>774</submissionId>
@@ -326,6 +376,8 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>800</submissionId>
@@ -335,6 +387,602 @@
 		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>807</submissionId>
+		<presentationOrder>9</presentationOrder>
+		<submissionTitle>SocialSpamGuard: A Data Mining-Based Spam Detection System for Social Media Networks</submissionTitle>
+		<submissionAuthors>Xin Jin (UIUC), Xide Lin (UIUC), Jiebo Luo (Kodak Research), Jiawei Han (UIUC)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>673</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>BROAD: Diversified Keyword Search in Databases</submissionTitle>
+		<submissionAuthors>Feng Zhao (National University of Singapore), Xiaolong Zhang (Zhejiang University), Anthony Tung (National University of Singapore), Gang Chen (Zhejiang University)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>696</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>CerFix: A System for Cleaning Data with Certain Fixes</submissionTitle>
+		<submissionAuthors>Wenfei Fan (University of Edinburgh), Jianzhong Li (Harbin Institute of Technology), Shuai Ma (Beihang University), Nan Tang (University of Edinburgh), Wenyuan Yu (University of Edinburgh)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>706</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>Debugging Data Exchange with Vagabond</submissionTitle>
+		<submissionAuthors>Boris Glavic (University of Toronto), Jiang Du (University of Toronto), Renee Miller (University of Toronto), Gustavo Alonso (ETH Zurich), Laura Haas (IBM Research - Almaden)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>739</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>DivDB: A System for Diversifying Query Results</submissionTitle>
+		<submissionAuthors>Marcos Vieira (UCR), Humberto Razente (UFABC), Maria Camila Barioni (UFABC), Marios Hadjieleftheriou (AT&amp;T Labs), Divesh Srivastava (AT&amp;T Labs), Caetano Traina Jr. (ICMC-USP), Vassilis Tsotras (UCR)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>743</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>HOMES: A Higher-Order Mapping Evaluation System</submissionTitle>
+		<submissionAuthors>Huy Vu (Oxford University), Michael Benedikt (Oxford University)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>759</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>EIRENE: Interactive Design and Refinement of Schema Mappings via Data Examples</submissionTitle>
+		<submissionAuthors>Bogdan Alexe (UC Santa Cruz), Balder_ten Cate (UC Santa Cruz), Phokion Kolaitis (UCSC &amp; IBM Research - Almaden), Wang-Chiew Tan (IBM Research - Almaden &amp; UCSC)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>783</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>FuDoCS: A Web Service Composition System Based on Fuzzy Dominance for Preference Query Answering</submissionTitle>
+		<submissionAuthors>Karim Benouaret (University of Lyon), Djamal Benslimane (University of Lyon), Allel Hadjali (University of Rennes), Mahmoud Barhamgi</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>790</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>++Spicy: an Open-Source Tool for Second-Generation Schema Mapping and Data Exchange</submissionTitle>
+		<submissionAuthors>Bruno Marnette (INRIA Saclay &amp; ENS Cachan), Giansalvatore Mecca (Università della Basilicata), Paolo Papotti (Università Roma Tre), Salvatore Raunich (University of Leipzig), Donatello Santoro (Università della Basilicata)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>801</submissionId>
+		<presentationOrder>9</presentationOrder>
+		<submissionTitle>AIDA: An Online Tool for Accurate Disambiguation of Named Entities in Text and Tables</submissionTitle>
+		<submissionAuthors>Mohamed Amir Yosef (Max Planck Institute for Informatics), Johannes Hoffart (Max Planck Institute for Informatics), Ilaria Bordino (Yahoo! Research), Marc Spaniol (Max Planck Institute for Informatics), Gerhard Weikum ( Max Planck Institute Germany)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>805</submissionId>
+		<presentationOrder>10</presentationOrder>
+		<submissionTitle>Microsoft Codename "Montego" - Data Import, Transformation, and Publication for Information Workers</submissionTitle>
+		<submissionAuthors>Stephen Maine (Microsoft Corporation), Lorenz Prem (Microsoft Corporation), Clemens Szyperski (Microsoft Corporation), James Terwilliger (Microsoft Corporation)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>676</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>TrustedDB: A Trusted Hardware based Outsourced Database Engine</submissionTitle>
+		<submissionAuthors>Sumeet Bajaj (Stony Brook University), Radu Sion (Stony Brook University)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>686</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>IPL-P: In-Page Logging with PCRAM</submissionTitle>
+		<submissionAuthors>Kang-Nyeon Kim (Sungkyunkwan University), Sang-Won Lee (Sungkyunkwan University), Bongki Moon (University of Arizona), Chanik Park (Samsung Electronics), Joo-Young Hwang (Samsung Electronics)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>689</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>HyPer-sonic Combined Transaction AND Query Processing</submissionTitle>
+		<submissionAuthors>Florian Funke (Technische Universität München), Alfons Kemper (Technische Universität München), Thomas Neumann (Technische Universität München)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>731</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>Analytics for the Real-Time Web</submissionTitle>
+		<submissionAuthors>Maxim Grinev (ETH Zurich), Maria Grineva (ETH Zurich), Martin Hentschel (ETH Zurich), Donald Kossmann (ETH Zurich)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>745</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>Proactive Detection and Repair of Data Corruption: Towards a Hassle-free Declarative Approach with Amulet</submissionTitle>
+		<submissionAuthors>Nedyalko Borisov (Duke University), Shivnath Babu (Duke University)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>752</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>Automatic Workload Driven Index Defragmentation</submissionTitle>
+		<submissionAuthors>Vivek Narasayya (Microsoft Research), Hyunjung Park (Stanford University), Manoj Syamala (Microsoft Research)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>761</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>DataSynth: Generating Synthetic Data using Declarative Constraints</submissionTitle>
+		<submissionAuthors>Arvind Arasu (Microsoft Research), Raghav Kaushik (Microsoft Research), Jian Li (University of Maryland)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:30:00 AM</startDate>
+		<endDate>8/31/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>786</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>A Demonstration of HYRISE - A Main Memory Hybrid Storage Engine</submissionTitle>
+		<submissionAuthors>Martin Grund (Hasso-Plattner-Institut), Philippe Cudre-Mauroux (MIT CSAIL), Samuel Madden (MIT)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>663</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>RAMP: A System for Capturing and Tracing Provenance in MapReduce Workflows</submissionTitle>
+		<submissionAuthors>Hyunjung Park (Stanford University), Robert Ikeda (Stanford University), Jennifer Widom (Stanford University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>695</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>GrouPeer: A System for Clustering PDMSs</submissionTitle>
+		<submissionAuthors>Verena Kantere (CUT), Dimos Bousounis (ETH Zurich), Timos Selis (NTUA)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>705</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>Online Visualization of Geospatial Stream Data using the WorldWide Telescope</submissionTitle>
+		<submissionAuthors>Mohamed Ali (Microsoft), Badrish Chandramouli (Microsoft Research), Jonathan Fay (Microsoft), Curtis Wong (Microsoft), Steven Drucker (Microsoft), Balan Sethu Raman (Microsoft)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>713</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>CrowdDB: Query Processing with the VLDB Crowd</submissionTitle>
+		<submissionAuthors>Amber Feng (UC Berkeley), Michael Franklin (UC Berkeley), Donald Kossmann (ETH Zurich), Tim Kraska (UC Berkeley), Samuel Madden (MIT), Sukriti Ramesh (ETH Zurich), Andrew Wang (UC Berkeley), Reynold Xin (UC Berkeley)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>755</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>Whodunit: An Auditing Tool for Detecting Data Breaches</submissionTitle>
+		<submissionAuthors>Raghav Kaushik (Microsoft Research), Ravi Ramamurthy (Microsoft Research)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>772</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>InfoNetOLAPer: Integrating InfoNetWarehouse and InfoNetCube with InfoNetOLAP</submissionTitle>
+		<submissionAuthors>Chuan Li (Sichuan University &amp; UIC), Philip Yu (University of Illinois at Chicago), Lei Zhao (University of Science and Technology of China), Yan Xie (University of Illinois at Chicago), Wangqun Lin (University of Illinois at Chicago)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>774</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>From SPARQL to MapReduce: The Journey Using a Nested TripleGroup Algebra</submissionTitle>
+		<submissionAuthors>HyeongSik Kim (North Carolina State University), Padmashree Ravindra (North Carolina State University), Kemafor Anyanwu (North Carolina State University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>800</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>MapReduce Programming and Cost-based Optimization? Crossing this Chasm with Starfish</submissionTitle>
+		<submissionAuthors>Herodotos Herodotou (Duke University), Fei Dong (Duke University), Shivnath Babu (Duke University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>807</submissionId>
+		<presentationOrder>9</presentationOrder>
+		<submissionTitle>SocialSpamGuard: A Data Mining-Based Spam Detection System for Social Media Networks</submissionTitle>
+		<submissionAuthors>Xin Jin (UIUC), Xide Lin (UIUC), Jiebo Luo (Kodak Research), Jiawei Han (UIUC)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>673</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>BROAD: Diversified Keyword Search in Databases</submissionTitle>
+		<submissionAuthors>Feng Zhao (National University of Singapore), Xiaolong Zhang (Zhejiang University), Anthony Tung (National University of Singapore), Gang Chen (Zhejiang University)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>696</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>CerFix: A System for Cleaning Data with Certain Fixes</submissionTitle>
+		<submissionAuthors>Wenfei Fan (University of Edinburgh), Jianzhong Li (Harbin Institute of Technology), Shuai Ma (Beihang University), Nan Tang (University of Edinburgh), Wenyuan Yu (University of Edinburgh)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>706</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>Debugging Data Exchange with Vagabond</submissionTitle>
+		<submissionAuthors>Boris Glavic (University of Toronto), Jiang Du (University of Toronto), Renee Miller (University of Toronto), Gustavo Alonso (ETH Zurich), Laura Haas (IBM Research - Almaden)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>739</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>DivDB: A System for Diversifying Query Results</submissionTitle>
+		<submissionAuthors>Marcos Vieira (UCR), Humberto Razente (UFABC), Maria Camila Barioni (UFABC), Marios Hadjieleftheriou (AT&amp;T Labs), Divesh Srivastava (AT&amp;T Labs), Caetano Traina Jr. (ICMC-USP), Vassilis Tsotras (UCR)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>743</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>HOMES: A Higher-Order Mapping Evaluation System</submissionTitle>
+		<submissionAuthors>Huy Vu (Oxford University), Michael Benedikt (Oxford University)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>759</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>EIRENE: Interactive Design and Refinement of Schema Mappings via Data Examples</submissionTitle>
+		<submissionAuthors>Bogdan Alexe (UC Santa Cruz), Balder_ten Cate (UC Santa Cruz), Phokion Kolaitis (UCSC &amp; IBM Research - Almaden), Wang-Chiew Tan (IBM Research - Almaden &amp; UCSC)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>783</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>FuDoCS: A Web Service Composition System Based on Fuzzy Dominance for Preference Query Answering</submissionTitle>
+		<submissionAuthors>Karim Benouaret (University of Lyon), Djamal Benslimane (University of Lyon), Allel Hadjali (University of Rennes), Mahmoud Barhamgi</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>790</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>++Spicy: an Open-Source Tool for Second-Generation Schema Mapping and Data Exchange</submissionTitle>
+		<submissionAuthors>Bruno Marnette (INRIA Saclay &amp; ENS Cachan), Giansalvatore Mecca (Università della Basilicata), Paolo Papotti (Università Roma Tre), Salvatore Raunich (University of Leipzig), Donatello Santoro (Università della Basilicata)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>801</submissionId>
+		<presentationOrder>9</presentationOrder>
+		<submissionTitle>AIDA: An Online Tool for Accurate Disambiguation of Named Entities in Text and Tables</submissionTitle>
+		<submissionAuthors>Mohamed Amir Yosef (Max Planck Institute for Informatics), Johannes Hoffart (Max Planck Institute for Informatics), Ilaria Bordino (Yahoo! Research), Marc Spaniol (Max Planck Institute for Informatics), Gerhard Weikum ( Max Planck Institute Germany)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
+		<endDate>9/1/2011 5:30:00 PM</endDate>
+		<sessionName>Demo Session A</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>805</submissionId>
+		<presentationOrder>10</presentationOrder>
+		<submissionTitle>Microsoft Codename "Montego" - Data Import, Transformation, and Publication for Information Workers</submissionTitle>
+		<submissionAuthors>Stephen Maine (Microsoft Corporation), Lorenz Prem (Microsoft Corporation), Clemens Szyperski (Microsoft Corporation), James Terwilliger (Microsoft Corporation)</submissionAuthors>
+		<sessionTitle>Information Integration and Information Retrieval</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>676</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>TrustedDB: A Trusted Hardware based Outsourced Database Engine</submissionTitle>
+		<submissionAuthors>Sumeet Bajaj (Stony Brook University), Radu Sion (Stony Brook University)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>686</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>IPL-P: In-Page Logging with PCRAM</submissionTitle>
+		<submissionAuthors>Kang-Nyeon Kim (Sungkyunkwan University), Sang-Won Lee (Sungkyunkwan University), Bongki Moon (University of Arizona), Chanik Park (Samsung Electronics), Joo-Young Hwang (Samsung Electronics)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>689</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>HyPer-sonic Combined Transaction AND Query Processing</submissionTitle>
+		<submissionAuthors>Florian Funke (Technische Universität München), Alfons Kemper (Technische Universität München), Thomas Neumann (Technische Universität München)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>731</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>Analytics for the Real-Time Web</submissionTitle>
+		<submissionAuthors>Maxim Grinev (ETH Zurich), Maria Grineva (ETH Zurich), Martin Hentschel (ETH Zurich), Donald Kossmann (ETH Zurich)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>745</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>Proactive Detection and Repair of Data Corruption: Towards a Hassle-free Declarative Approach with Amulet</submissionTitle>
+		<submissionAuthors>Nedyalko Borisov (Duke University), Shivnath Babu (Duke University)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>752</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>Automatic Workload Driven Index Defragmentation</submissionTitle>
+		<submissionAuthors>Vivek Narasayya (Microsoft Research), Hyunjung Park (Stanford University), Manoj Syamala (Microsoft Research)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>761</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>DataSynth: Generating Synthetic Data using Declarative Constraints</submissionTitle>
+		<submissionAuthors>Arvind Arasu (Microsoft Research), Raghav Kaushik (Microsoft Research), Jian Li (University of Maryland)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Demo Session B</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>786</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>A Demonstration of HYRISE - A Main Memory Hybrid Storage Engine</submissionTitle>
+		<submissionAuthors>Martin Grund (Hasso-Plattner-Institut), Philippe Cudre-Mauroux (MIT CSAIL), Samuel Madden (MIT)</submissionAuthors>
+		<sessionTitle>Modern Hardware, Streaming, and Benchmarking</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>663</submissionId>
+		<presentationOrder>1</presentationOrder>
+		<submissionTitle>RAMP: A System for Capturing and Tracing Provenance in MapReduce Workflows</submissionTitle>
+		<submissionAuthors>Hyunjung Park (Stanford University), Robert Ikeda (Stanford University), Jennifer Widom (Stanford University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>695</submissionId>
+		<presentationOrder>2</presentationOrder>
+		<submissionTitle>GrouPeer: A System for Clustering PDMSs</submissionTitle>
+		<submissionAuthors>Verena Kantere (CUT), Dimos Bousounis (ETH Zurich), Timos Selis (NTUA)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>705</submissionId>
+		<presentationOrder>3</presentationOrder>
+		<submissionTitle>Online Visualization of Geospatial Stream Data using the WorldWide Telescope</submissionTitle>
+		<submissionAuthors>Mohamed Ali (Microsoft), Badrish Chandramouli (Microsoft Research), Jonathan Fay (Microsoft), Curtis Wong (Microsoft), Steven Drucker (Microsoft), Balan Sethu Raman (Microsoft)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>713</submissionId>
+		<presentationOrder>4</presentationOrder>
+		<submissionTitle>CrowdDB: Query Processing with the VLDB Crowd</submissionTitle>
+		<submissionAuthors>Amber Feng (UC Berkeley), Michael Franklin (UC Berkeley), Donald Kossmann (ETH Zurich), Tim Kraska (UC Berkeley), Samuel Madden (MIT), Sukriti Ramesh (ETH Zurich), Andrew Wang (UC Berkeley), Reynold Xin (UC Berkeley)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>755</submissionId>
+		<presentationOrder>5</presentationOrder>
+		<submissionTitle>Whodunit: An Auditing Tool for Detecting Data Breaches</submissionTitle>
+		<submissionAuthors>Raghav Kaushik (Microsoft Research), Ravi Ramamurthy (Microsoft Research)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>772</submissionId>
+		<presentationOrder>6</presentationOrder>
+		<submissionTitle>InfoNetOLAPer: Integrating InfoNetWarehouse and InfoNetCube with InfoNetOLAP</submissionTitle>
+		<submissionAuthors>Chuan Li (Sichuan University &amp; UIC), Philip Yu (University of Illinois at Chicago), Lei Zhao (University of Science and Technology of China), Yan Xie (University of Illinois at Chicago), Wangqun Lin (University of Illinois at Chicago)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>774</submissionId>
+		<presentationOrder>7</presentationOrder>
+		<submissionTitle>From SPARQL to MapReduce: The Journey Using a Nested TripleGroup Algebra</submissionTitle>
+		<submissionAuthors>HyeongSik Kim (North Carolina State University), Padmashree Ravindra (North Carolina State University), Kemafor Anyanwu (North Carolina State University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
+		<sessionName>Demo Session C</sessionName>
+		<location>Grand Crescent</location>
+		<submissionId>800</submissionId>
+		<presentationOrder>8</presentationOrder>
+		<submissionTitle>MapReduce Programming and Cost-based Optimization? Crossing this Chasm with Starfish</submissionTitle>
+		<submissionAuthors>Herodotos Herodotou (Duke University), Fei Dong (Duke University), Shivnath Babu (Duke University)</submissionAuthors>
+		<sessionTitle>MapReduce, Crowd Sourcing, and Mining</sessionTitle>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:30:00 AM</startDate>
+		<endDate>9/1/2011 12:00:00 PM</endDate>
 		<sessionName>Demo Session C</sessionName>
 		<location>Grand Crescent</location>
 		<submissionId>807</submissionId>
@@ -492,12 +1140,16 @@
 		<submissionAuthors>David Campbell (Microsoft)</submissionAuthors>
 	</record>
 	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
+		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Panel 1</sessionName>
 		<location>Fifth Avenue</location>
 		<submissionTitle>Data Management for Meeting Global Health Challenges</submissionTitle>
 		<submissionAuthors>Kuang Chen (UC Berkeley), Lucky Gunasekara (Global Viral Forecasting Initiative), Alon Halevy (Google), Andy Kanter (Columbia University), Rowena Luk (Dimagi Inc.), Peter Speyer (University of Washington)</submissionAuthors>
 	</record>
 	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
+		<endDate>8/31/2011 5:30:00 PM</endDate>
 		<sessionName>Panel 2</sessionName>
 		<location>Vashon</location>
 		<submissionTitle>Panel Discussion: Maximizing Impact</submissionTitle>
@@ -1737,6 +2389,14 @@
 	</record>
 	<record>
 		<startDate>8/30/2011 1:30:00 PM</startDate>
+		<endDate>8/30/2011 3:30:00 PM</endDate>
+		<sessionName>Tutorial 2</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionTitle>System Co-Design and Data Managment for Flash Devices</submissionTitle>
+		<submissionAuthors>Philippe Bonnet (University of Copenhagen Denmark), Luc Bouganim, Ioannis Koltsidas, Stratis_D. Viglas</submissionAuthors>
+	</record>
+	<record>
+		<startDate>8/30/2011 4:00:00 PM</startDate>
 		<endDate>8/30/2011 6:00:00 PM</endDate>
 		<sessionName>Tutorial 2</sessionName>
 		<location>Cascade 1BC</location>
@@ -1753,6 +2413,14 @@
 	</record>
 	<record>
 		<startDate>8/31/2011 1:30:00 PM</startDate>
+		<endDate>8/31/2011 3:00:00 PM</endDate>
+		<sessionName>Tutorial 4</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionTitle>Crowdsourcing Applications and Platforms: A Data Management Perspective</submissionTitle>
+		<submissionAuthors>AnHai Doan (University of Wisconsin), Michael Franklin (UC Berkeley), Donald Kossmann (ETH Zurich), Tim Kraska (UC Berkeley)</submissionAuthors>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:30:00 PM</startDate>
 		<endDate>8/31/2011 5:30:00 PM</endDate>
 		<sessionName>Tutorial 4</sessionName>
 		<location>Cascade 1BC</location>
@@ -1769,10 +2437,594 @@
 	</record>
 	<record>
 		<startDate>9/1/2011 1:30:00 PM</startDate>
+		<endDate>9/1/2011 3:00:00 PM</endDate>
+		<sessionName>Tutorial 6</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionTitle>Information Diffusion In Social Networks: Observing and Influencing Societal Interests</submissionTitle>
+		<submissionAuthors>Divyakant Agrawal (University of California Santa Barbara), Ceren Budak (Ucsb), Amr El Abbadi (UC Santa Barbara)</submissionAuthors>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:30:00 PM</startDate>
 		<endDate>9/1/2011 5:30:00 PM</endDate>
 		<sessionName>Tutorial 6</sessionName>
 		<location>Cascade 1BC</location>
 		<submissionTitle>Information Diffusion In Social Networks: Observing and Influencing Societal Interests</submissionTitle>
 		<submissionAuthors>Divyakant Agrawal (University of California Santa Barbara), Ceren Budak (Ucsb), Amr El Abbadi (UC Santa Barbara)</submissionAuthors>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:30:00 AM</startDate>
+		<endDate>8/29/2011 10:00:00 AM</endDate>
+		<sessionName>DMSN 2011 - 8th International Workshop on Data Management for Sensor Networks</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Mohamed Mokbel, Suman Nath, Wang-Chien Lee, Demetris Zeinalipour</submissionAuthors>
+		<website>http://www.softnet.tuc.gr/dmsn11/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:30:00 AM</startDate>
+		<endDate>8/29/2011 12:00:00 PM</endDate>
+		<sessionName>DMSN 2011 - 8th International Workshop on Data Management for Sensor Networks</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Mohamed Mokbel, Suman Nath, Wang-Chien Lee, Demetris Zeinalipour</submissionAuthors>
+		<website>http://www.softnet.tuc.gr/dmsn11/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 1:30:00 PM</startDate>
+		<endDate>8/29/2011 3:00:00 PM</endDate>
+		<sessionName>DMSN 2011 - 8th International Workshop on Data Management for Sensor Networks</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Mohamed Mokbel, Suman Nath, Wang-Chien Lee, Demetris Zeinalipour</submissionAuthors>
+		<website>http://www.softnet.tuc.gr/dmsn11/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:30:00 PM</startDate>
+		<endDate>8/29/2011 5:00:00 PM</endDate>
+		<sessionName>DMSN 2011 - 8th International Workshop on Data Management for Sensor Networks</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Mohamed Mokbel, Suman Nath, Wang-Chien Lee, Demetris Zeinalipour</submissionAuthors>
+		<website>http://www.softnet.tuc.gr/dmsn11/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:30:00 AM</startDate>
+		<endDate>8/29/2011 10:00:00 AM</endDate>
+		<sessionName>DBRank/MUD 2011 - 5th International Workshop on Ranking in Databases/5th International Workshop on Management of Uncertain Data</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Kaushik Chakrabarti, Davide Martinenghi/Maurice van Keulen, Ander de Keijzer, Ghita Berrada</submissionAuthors>
+		<website>http://home.dei.polimi.it/martinen/dbrank2011/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:30:00 AM</startDate>
+		<endDate>8/29/2011 12:00:00 PM</endDate>
+		<sessionName>DBRank/MUD 2011 - 5th International Workshop on Ranking in Databases/5th International Workshop on Management of Uncertain Data</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Kaushik Chakrabarti, Davide Martinenghi/Maurice van Keulen, Ander de Keijzer, Ghita Berrada</submissionAuthors>
+		<website>http://home.dei.polimi.it/martinen/dbrank2011/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 1:30:00 PM</startDate>
+		<endDate>8/29/2011 3:00:00 PM</endDate>
+		<sessionName>DBRank/MUD 2011 - 5th International Workshop on Ranking in Databases/5th International Workshop on Management of Uncertain Data</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Kaushik Chakrabarti, Davide Martinenghi/Maurice van Keulen, Ander de Keijzer, Ghita Berrada</submissionAuthors>
+		<website>http://home.dei.polimi.it/martinen/dbrank2011/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:30:00 PM</startDate>
+		<endDate>8/29/2011 5:00:00 PM</endDate>
+		<sessionName>DBRank/MUD 2011 - 5th International Workshop on Ranking in Databases/5th International Workshop on Management of Uncertain Data</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Kaushik Chakrabarti, Davide Martinenghi/Maurice van Keulen, Ander de Keijzer, Ghita Berrada</submissionAuthors>
+		<website>http://home.dei.polimi.it/martinen/dbrank2011/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:30:00 AM</startDate>
+		<endDate>8/29/2011 10:00:00 AM</endDate>
+		<sessionName>DBPL 2011 - 13th International Symposium on Database Programming Languages</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://www.cs.cornell.edu/conferences/dbpl2011</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:30:00 AM</startDate>
+		<endDate>8/29/2011 12:00:00 PM</endDate>
+		<sessionName>DBPL 2011 - 13th International Symposium on Database Programming Languages</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://www.cs.cornell.edu/conferences/dbpl2012</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 1:30:00 PM</startDate>
+		<endDate>8/29/2011 3:00:00 PM</endDate>
+		<sessionName>DBPL 2011 - 13th International Symposium on Database Programming Languages</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://www.cs.cornell.edu/conferences/dbpl2013</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:30:00 PM</startDate>
+		<endDate>8/29/2011 5:00:00 PM</endDate>
+		<sessionName>DBPL 2011 - 13th International Symposium on Database Programming Languages</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://www.cs.cornell.edu/conferences/dbpl2014</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:30:00 AM</startDate>
+		<endDate>8/29/2011 10:00:00 AM</endDate>
+		<sessionName>QDB 2011 - 9th International Workshop on Quality in Databases</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Mourad Ouzzani, Paolo Papotti, Erhard Rahm</submissionAuthors>
+		<website>http://qdb2011.dia.uniroma3.it/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:30:00 AM</startDate>
+		<endDate>8/29/2011 12:00:00 PM</endDate>
+		<sessionName>QDB 2011 - 9th International Workshop on Quality in Databases</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Mourad Ouzzani, Paolo Papotti, Erhard Rahm</submissionAuthors>
+		<website>http://qdb2011.dia.uniroma3.it/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 1:30:00 PM</startDate>
+		<endDate>8/29/2011 3:00:00 PM</endDate>
+		<sessionName>QDB 2011 - 9th International Workshop on Quality in Databases</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Mourad Ouzzani, Paolo Papotti, Erhard Rahm</submissionAuthors>
+		<website>http://qdb2011.dia.uniroma3.it/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:30:00 PM</startDate>
+		<endDate>8/29/2011 5:00:00 PM</endDate>
+		<sessionName>QDB 2011 - 9th International Workshop on Quality in Databases</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Mourad Ouzzani, Paolo Papotti, Erhard Rahm</submissionAuthors>
+		<website>http://qdb2011.dia.uniroma3.it/</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:30:00 AM</startDate>
+		<endDate>8/29/2011 10:00:00 AM</endDate>
+		<sessionName>TPCTC 2011 - 3rd TPC Technology Conference on Performance Evaluation and Benchmarking</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Raghunath Nambiar, Meikel Poess</submissionAuthors>
+		<website>http://www.tpc.org/tpctc2011</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:30:00 AM</startDate>
+		<endDate>8/29/2011 12:00:00 PM</endDate>
+		<sessionName>TPCTC 2011 - 3rd TPC Technology Conference on Performance Evaluation and Benchmarking</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Raghunath Nambiar, Meikel Poess</submissionAuthors>
+		<website>http://www.tpc.org/tpctc2012</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 1:30:00 PM</startDate>
+		<endDate>8/29/2011 3:00:00 PM</endDate>
+		<sessionName>TPCTC 2011 - 3rd TPC Technology Conference on Performance Evaluation and Benchmarking</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Raghunath Nambiar, Meikel Poess</submissionAuthors>
+		<website>http://www.tpc.org/tpctc2013</website>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:30:00 PM</startDate>
+		<endDate>8/29/2011 5:00:00 PM</endDate>
+		<sessionName>TPCTC 2011 - 3rd TPC Technology Conference on Performance Evaluation and Benchmarking</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Raghunath Nambiar, Meikel Poess</submissionAuthors>
+		<website>http://www.tpc.org/tpctc2014</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>PersDB 2011 - 5th Workshop on Personalized Access, Profile Management, and Context Awareness in Databases</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Zoltan Gyongyi, Yannis Stavrakas</submissionAuthors>
+		<website>http://persdb11.imis.athena-innovation.gr/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>PersDB 2011 - 5th Workshop on Personalized Access, Profile Management, and Context Awareness in Databases</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Zoltan Gyongyi, Yannis Stavrakas</submissionAuthors>
+		<website>http://persdb11.imis.athena-innovation.gr/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>PersDB 2011 - 5th Workshop on Personalized Access, Profile Management, and Context Awareness in Databases</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Zoltan Gyongyi, Yannis Stavrakas</submissionAuthors>
+		<website>http://persdb11.imis.athena-innovation.gr/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>PersDB 2011 - 5th Workshop on Personalized Access, Profile Management, and Context Awareness in Databases</sessionName>
+		<location>Cascade 1BC</location>
+		<submissionAuthors>Zoltan Gyongyi, Yannis Stavrakas</submissionAuthors>
+		<website>http://persdb11.imis.athena-innovation.gr/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>SDM 2011 - 8th Workshop on Secure Data Management</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Willem Jonker, Milan Petkovic, Luan Ibraimi</submissionAuthors>
+		<website>http://www.hitech-projects.com/sdm-workshop/sdm11.html</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>SDM 2011 - 8th Workshop on Secure Data Management</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Willem Jonker, Milan Petkovic, Luan Ibraimi</submissionAuthors>
+		<website>http://www.hitech-projects.com/sdm-workshop/sdm11.html</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>SDM 2011 - 8th Workshop on Secure Data Management</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Willem Jonker, Milan Petkovic, Luan Ibraimi</submissionAuthors>
+		<website>http://www.hitech-projects.com/sdm-workshop/sdm11.html</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>SDM 2011 - 8th Workshop on Secure Data Management</sessionName>
+		<location>Cascade 1A</location>
+		<submissionAuthors>Willem Jonker, Milan Petkovic, Luan Ibraimi</submissionAuthors>
+		<website>http://www.hitech-projects.com/sdm-workshop/sdm11.html</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>BIRTE 2011 - 5th International Workshop on Business Intelligence for the Real Time Enterprise</sessionName>
+		<location>Fifth Avenue</location>
+		<submissionAuthors>Umesh Dayal, Malu Castellanos, Wolfgang Lehner</submissionAuthors>
+		<website>http://wwwdb.inf.tu-dresden.de/birte2011</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>BIRTE 2011 - 5th International Workshop on Business Intelligence for the Real Time Enterprise</sessionName>
+		<location>Fifth Avenue</location>
+		<submissionAuthors>Umesh Dayal, Malu Castellanos, Wolfgang Lehner</submissionAuthors>
+		<website>http://wwwdb.inf.tu-dresden.de/birte2012</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>BIRTE 2011 - 5th International Workshop on Business Intelligence for the Real Time Enterprise</sessionName>
+		<location>Fifth Avenue</location>
+		<submissionAuthors>Umesh Dayal, Malu Castellanos, Wolfgang Lehner</submissionAuthors>
+		<website>http://wwwdb.inf.tu-dresden.de/birte2013</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>BIRTE 2011 - 5th International Workshop on Business Intelligence for the Real Time Enterprise</sessionName>
+		<location>Fifth Avenue</location>
+		<submissionAuthors>Umesh Dayal, Malu Castellanos, Wolfgang Lehner</submissionAuthors>
+		<website>http://wwwdb.inf.tu-dresden.de/birte2014</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>VLDS 2011 - 1st Workshop on Searching and Integrating New Web Data Sources</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://vlds2011.search-computing.net/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>VLDS 2011 - 1st Workshop on Searching and Integrating New Web Data Sources</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://vlds2011.search-computing.net/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>VLDS 2011 - 1st Workshop on Searching and Integrating New Web Data Sources</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://vlds2011.search-computing.net/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>VLDS 2011 - 1st Workshop on Searching and Integrating New Web Data Sources</sessionName>
+		<location>Vashon</location>
+		<submissionAuthors>Nate Foster, Anastasios Kementsietsidis</submissionAuthors>
+		<website>http://vlds2011.search-computing.net/</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:30:00 AM</startDate>
+		<endDate>9/2/2011 10:00:00 AM</endDate>
+		<sessionName>ADMS 2011 - 2nd International Workshop on Accelerating Data Management Systems Using Modern Processors and Storage Architectures</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Rajesh Bordawekar, Christian Lang</submissionAuthors>
+		<website>http://www.adms-conf.org</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:30:00 AM</startDate>
+		<endDate>9/2/2011 12:00:00 PM</endDate>
+		<sessionName>ADMS 2011 - 2nd International Workshop on Accelerating Data Management Systems Using Modern Processors and Storage Architectures</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Rajesh Bordawekar, Christian Lang</submissionAuthors>
+		<website>http://www.adms-conf.org</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 1:30:00 PM</startDate>
+		<endDate>9/2/2011 3:00:00 PM</endDate>
+		<sessionName>ADMS 2011 - 2nd International Workshop on Accelerating Data Management Systems Using Modern Processors and Storage Architectures</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Rajesh Bordawekar, Christian Lang</submissionAuthors>
+		<website>http://www.adms-conf.org</website>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:30:00 PM</startDate>
+		<endDate>9/2/2011 5:00:00 PM</endDate>
+		<sessionName>ADMS 2011 - 2nd International Workshop on Accelerating Data Management Systems Using Modern Processors and Storage Architectures</sessionName>
+		<location>St. Helens</location>
+		<submissionAuthors>Rajesh Bordawekar, Christian Lang</submissionAuthors>
+		<website>http://www.adms-conf.org</website>
+	</record>
+	<record>
+		<startDate>9/3/2011 8:30:00 AM</startDate>
+		<endDate>9/3/2011 10:00:00 AM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/3/2011 10:30:00 AM</startDate>
+		<endDate>9/3/2011 12:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/3/2011 1:30:00 PM</startDate>
+		<endDate>9/3/2011 3:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>9/3/2011 3:30:00 PM</startDate>
+		<endDate>9/3/2011 5:00:00 PM</endDate>
+		<sessionName>LADIS 2011 - 5th Workshop on Large-Scale Distributed Systems and Middleware</sessionName>
+		<location>Cascade 2</location>
+		<submissionAuthors>Ymir Vigfusson, Marcos K. Aguilera, Gregory Chockler, Marc Shapiro, Antonio Sousa</submissionAuthors>
+		<website>http://www.ladisworkshop.org/</website>
+	</record>
+	<record>
+		<startDate>8/30/2011 8:00:00 AM</startDate>
+		<endDate>8/30/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/30/2011 8:30:00 AM</startDate>
+		<endDate>8/30/2011 8:45:00 AM</endDate>
+		<sessionName>Opening Ceremony</sessionName>
+		<location>Grand 1 &amp; 2</location>
+	</record>
+	<record>
+		<startDate>8/30/2011 10:00:00 AM</startDate>
+		<endDate>8/30/2011 10:30:00 AM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/30/2011 12:00:00 PM</startDate>
+		<endDate>8/30/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>8/30/2011 3:30:00 PM</startDate>
+		<endDate>8/30/2011 4:00:00 PM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/30/2011 6:00:00 PM</startDate>
+		<endDate>8/30/2011 9:00:00 PM</endDate>
+		<sessionName>Microsoft Reception</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 8:00:00 AM</startDate>
+		<endDate>8/31/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 8:30:00 AM</startDate>
+		<endDate>8/31/2011 9:00:00 AM</endDate>
+		<sessionName>Reports: PC Chairs, VLDB 2012 General Chair, VLDB Endowment</sessionName>
+		<location>Grand 1 &amp; 2</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 10:00:00 AM</startDate>
+		<endDate>8/31/2011 10:30:00 AM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 12:00:00 PM</startDate>
+		<endDate>8/31/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 3:00:00 PM</startDate>
+		<endDate>8/31/2011 3:30:00 PM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 6:00:00 PM</startDate>
+		<endDate>8/31/2011 6:30:00 PM</endDate>
+		<sessionName>Buses depart</sessionName>
+		<location>Somewhere</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 6:30:00 PM</startDate>
+		<endDate>8/31/2011 7:30:00 PM</endDate>
+		<sessionName>Reception and Viewing Time-Museum of Flight</sessionName>
+		<location>Somewhere</location>
+	</record>
+	<record>
+		<startDate>8/31/2011 7:30:00 PM</startDate>
+		<endDate>8/31/2011 10:30:00 PM</endDate>
+		<sessionName>Banquet-Museum of Flight</sessionName>
+		<location>Somewhere</location>
+	</record>
+	<record>
+		<startDate>9/1/2011 8:00:00 AM</startDate>
+		<endDate>9/1/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>9/1/2011 8:30:00 AM</startDate>
+		<endDate>9/1/2011 10:00:00 AM</endDate>
+		<sessionName>VLDB Awards and Invited Talk by 10-year Best Paper Award Winners</sessionName>
+		<location>Grand 1 &amp; 2</location>
+	</record>
+	<record>
+		<startDate>9/1/2011 10:00:00 AM</startDate>
+		<endDate>9/1/2011 10:30:00 AM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>9/1/2011 12:00:00 PM</startDate>
+		<endDate>9/1/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>9/1/2011 3:00:00 PM</startDate>
+		<endDate>9/1/2011 3:30:00 PM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>8/29/2011 8:00:00 AM</startDate>
+		<endDate>8/29/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>8/29/2011 10:00:00 AM</startDate>
+		<endDate>8/29/2011 10:30:00 AM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>8/29/2011 12:00:00 PM</startDate>
+		<endDate>8/29/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>8/29/2011 3:00:00 PM</startDate>
+		<endDate>8/29/2011 3:30:00 PM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>8/29/2011 6:00:00 PM</startDate>
+		<endDate>8/29/2011 9:00:00 PM</endDate>
+		<sessionName>Welcome Reception</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>9/2/2011 8:00:00 AM</startDate>
+		<endDate>9/2/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>9/2/2011 10:00:00 AM</startDate>
+		<endDate>9/2/2011 10:30:00 AM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>9/2/2011 12:00:00 PM</startDate>
+		<endDate>9/2/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand 3</location>
+	</record>
+	<record>
+		<startDate>9/2/2011 3:00:00 PM</startDate>
+		<endDate>9/2/2011 3:30:00 PM</endDate>
+		<sessionName>Coffee Break</sessionName>
+		<location>Cascade North &amp; San Juan Foyers</location>
+	</record>
+	<record>
+		<startDate>9/3/2011 8:00:00 AM</startDate>
+		<endDate>9/3/2011 8:30:00 AM</endDate>
+		<sessionName>Breakfast</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>9/3/2011 10:00:00 AM</startDate>
+		<endDate>9/3/2011 10:30:00 AM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>9/3/2011 12:00:00 PM</startDate>
+		<endDate>9/3/2011 1:30:00 PM</endDate>
+		<sessionName>Lunch Provided</sessionName>
+		<location>Grand Foyer</location>
+	</record>
+	<record>
+		<startDate>9/3/2011 3:00:00 PM</startDate>
+		<endDate>9/3/2011 3:30:00 PM</endDate>
+		<sessionName>Coffe Break</sessionName>
+		<location>Grand Foyer</location>
 	</record>
 </programm>

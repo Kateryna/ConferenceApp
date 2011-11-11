@@ -15,6 +15,7 @@
 	padding-bottom:5px;
 	padding-right:1px;
 	padding-left:1px;
+	width:60px;
 	color:black;
 	font-size:12.0pt;
 	font-weight:700;
@@ -72,20 +73,23 @@
     -webkit-box-shadow:1px 1px 1px #333;
 	}	
 .sessionSecondType {
-	padding-top:1px;
-	padding-bottom:1px;
+	padding-top:30px;
+	padding-bottom:30px;
 	padding-right:1px;
 	padding-left:1px;
 	text-align:center;
 	border:1px solid;
 	background:#d9dada;
+
 	}
+	
 .sessionSecondType:hover{
 	background-color: #c0c8cd;
     box-shadow:1px 1px 1px #333;
 	-moz-box-shadow:1px 1px 1px #333;
     -webkit-box-shadow:1px 1px 1px #333;
 	}
+	
 .sessionThirdType {
 	padding-top:1px;
 	padding-bottom:1px;
@@ -99,6 +103,7 @@
 	vertical-align:middle;
 	border:1px solid;
 	background:#d9dada;
+	
 	}
 .sessionThirdType:hover{
 	background-color: #c0c8cd;
@@ -119,7 +124,7 @@
 	}
 .sessionFont1{
 	font-size:15.0pt;
-	font-weight:700;
+	font-weight:500;
 	font-style:normal;
 	font-family:Arial, sans-serif;
 	}
@@ -131,6 +136,7 @@
 	}
 a {
 	text-decoration:none;
+	
 	}
 
 div.text{
@@ -145,21 +151,17 @@ div.textSmall{
 	padding-right: 10pt;
 	font-family:Arial, sans-serif;
 	}
-.header {
+	
+.header{
 	text-align:center;
 	}
-.sessionName, .workshopName {
-	text-align:center;
+
+.sessionName {
 	font-family:Arial, sans-serif;
 	font-size:16.0pt;
 	font-weight:600;
 	}
-.workshopSessionName{
-	text-align:center;
-	font-family:Arial, sans-serif;
-	font-size:14.0pt;
-	font-weight:600;
-	}
+
 .location{
 	font-family:Arial, sans-serif;
 	font-size:14.0pt;
