@@ -1,15 +1,13 @@
-
-/* root element for tabs  */
+/* Tabs */
+/* Root element for tabs  */
 ul.tabs { 
 	list-style:none; 
 	margin:0 !important; 
 	padding:0;	
 	border-bottom:1px solid #666;	
 	height:57px;
-
 }
-
-/* single tab */
+/* Single tab */
 ul.tabs li { 
 	float:left;
 	text-indent:0;
@@ -17,8 +15,7 @@ ul.tabs li {
 	margin:0 !important;
 	list-style-image:none !important; 
 }
-
-/* link inside the tab. uses a background image */
+/* Link inside the tab, uses a background image */
 ul.tabs a { 
 	background: url(img/bluesmall2.png) no-repeat 0 0;
 	font-family:Arial, sans-serif;
@@ -26,12 +23,9 @@ ul.tabs a {
 	font-weight:600;
 	font-size:18px;
 	display:block;
-
 	height: 46px;  
 	line-height:56px;
 	width: 73px;
-
-
 	text-align:center;	
 	text-decoration:none;
 	color:#333;
@@ -40,28 +34,20 @@ ul.tabs a {
 	position:relative;
 	top:1px;
 }
-
-
 ul.tabs a:active {
 	outline:none;		
 }
-
-/* when mouse enters the tab move the background image */
+/* When mouse enters the tab move the background image */
 ul.tabs a:hover {
 	background-position: 0 -46px;	
 	color:#fff;	
 }
-
-/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+/* Active tab uses a class name "current". its highlight is also done by moving the background image. */
 ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
 	background-position: 0 -92px;		
 	cursor:default !important; 
 	color:#000 !important;
 }
-
 /* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
-
 .panes div {
-
 }
-

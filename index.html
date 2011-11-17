@@ -2,84 +2,55 @@
 <html>
 	<head>
 	    <title>Main page</title>
-		<link type="text/css" rel="stylesheet" media="all" href="./app/layout.css">
-		<link type="text/css" rel="stylesheet" media="all" href="./app/style.css">
-		<link type="text/css" rel="stylesheet" media="all" href="./app/default.css">
-		<link type="text/css" rel="stylesheet" media="all" href="./app/programday.css">
-	  <script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
-
-		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
-		<script type="text/javascript" src="app/jquery-impromptu.js"></script>
+		<link type="text/css" rel="stylesheet" media="all" href="./app/ConferenceApp.css">
+		<script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
 		<script type="text/javascript" src="app/localcalendar.js"></script>
+		
 		<script type="text/javascript" >
-
-
-
-
-   document.addEventListener("deviceready", onDeviceReady, false);
-
-    // PhoneGap is ready
-    //
-    function onDeviceReady() {
-        var db = window.openDatabase("Events", "1.0", "CalendarEvents", 200000);
-        db.transaction(populateDB, errorCB, successCB);
-    }
-    // Populate the database 
-    //
-    function populateDB(tx) {
-         tx.executeSql('CREATE TABLE IF NOT EXISTS EVENT (eName, eStart, eEnd, eLoc)');
-    }
-
-    // Transaction error callback
-    //
-    function errorCB(tx, err) {
-        alert("Error processing SQL: "+err);
-    }
-
-    // Transaction success callback
-    //
-    function successCB() {
-    //   alert("success!");
-    }
-
-</script>
-
+			document.addEventListener("deviceready", onDeviceReady, false);
+			// PhoneGap is ready
+			//
+			function onDeviceReady() {
+				var db = window.openDatabase("Events", "1.0", "CalendarEvents", 200000);
+				db.transaction(populateDB, errorCB, successCB);
+			}
+			// Populate the database 
+			//
+			function populateDB(tx) {
+				 tx.executeSql('CREATE TABLE IF NOT EXISTS EVENT (eName, eStart, eEnd, eLoc)');
+			}
+			// Transaction error callback
+			//
+			function errorCB(tx, err) {
+				alert("Error processing SQL: "+err);
+			}
+			// Transaction success callback
+			//
+			function successCB() {
+			//   alert("success!");
+			}
+		</script>
     </head>
 	
 	<body>
-
-		<div ><img src="./img/vldb2011header.png" width="100%"></a></div> 
-
-			<div align="center">
-			<h4>Program Schedule</h4>
-	<hr style="clear: both;"/>
-			
-			<a href="appcalendar.html" class="button"><div><img src="img/configdate.png"></img></div><br/><div><b>My calendar</b></div></a>
-			<a href="Program.html" class="button"><div><img src="img/evolutioncalendar.png"></img></div><br/><div><b>Conference program</b></div></a>
-		
-			</div>
-			<br/>
-
-			<div>
-			<h4>Papers</h4>
-	<hr style="clear: both;"/>
-			<a href="categories.html" class="button"><div><img src="img/category.png"></img></div><br/><div><b>Tracks</b></div></a>
-			<a href="AuthFName.html" class="button"><div><img src="img/authors.png"></img></div><br/><div><b>Authors</b></div></a>
-			<a href="tagcloud.html" class="button" ><div><img src="img/TagCloud.gif"></img></div><br/><div><b>Tag cloud</b></div></a>			
-		
-			</div>		
-			<div >
-			<h4>General info</h4>
-		<hr style="clear: both;"/>
-
-			<a href="aboutconf.html" class="button" ><div><img src="img/vldba.png"></img></div><br/><div><b>About conference</b></div></a>
-			<a href="rooms.html" class="button"><div><img src="img/map.png"></img></div><br/><div><b>Floor plan</b></div></a> 
-			<a href="sponsors.html" class="button"><div><img src="img/hyperlinkblue.png"></img></div><br/><div><b>Sponsors</b></div></a> 
-			<a href="aboutus.html" class="button"><div><img src="img/info.png"></img></div><br/><div><b>About</b></div></a> 			
-			<!--<a href="#" class="button" onclick=""><div><img src="img/event.png"></img></div><br/><div><b>Social events</b></div></a>
-		-->
-			</div>
-
-    
+		<div><img src="./img/confheader.png" width="100%"></div> 
+		<div>
+			<p class="chapterHeader">Program Schedule</p><hr/>
+			<a href="appcalendar.html" class="chapterButton"><div><img src="img/configdate.png"></img></div><br/><div>My calendar</div></a>
+			<a href="Program.html" class="chapterButton"><div><img src="img/evolutioncalendar.png"></img></div><br/><div>Conference program</b></div></a>
+		</div>
+		<div>
+			<p class="chapterHeader">Papers</p><hr/>
+			<a href="categories.html" class="chapterButton"><div><img src="img/category.png"></img></div><br/><div>Tracks</div></a>
+			<a href="AuthFName.html" class="chapterButton"><div><img src="img/authors.png"></img></div><br/><div>Authors</div></a>
+			<a href="tagcloud.html" class="chapterButton" ><div><img src="img/TagCloud.gif"></img></div><br/><div>Tag cloud</div></a>			
+		</div>	
+		<div>
+			<p class="chapterHeader">General info</p><hr/>
+			<a href="AboutConference.html" class="chapterButton"><div><img src="img/vldba.png"></img></div><br/><div>About conference</div></a>
+			<a href="rooms.html" class="chapterButton"><div><img src="img/map.png"></img></div><br/><div>Floor plan</div></a> 
+			<a href="sponsors.html" class="chapterButton"><div><img src="img/hyperlinkblue.png"></img></div><br/><div>Sponsors</div></a> 
+			<a href="aboutus.html" class="chapterButton"><div><img src="img/info.png"></img></div><br/><div>About</div></a> 			
+		</div>
 	</body>
 </html>

@@ -1,149 +1,122 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html>
 	<head>
 	    <title>Authors</title>
-		<link type="text/css" rel="stylesheet" media="all" href="./app/layout.css">
-		<link type="text/css" rel="stylesheet" media="all" href="./app/style.css">
-		<link type="text/css" rel="stylesheet" media="all" href="./app/programday.css">
-		<link rel='stylesheet' type='text/css' href='app/jquery.addtocal.css' />
-		<link rel='stylesheet' type='text/css' href='app/jquery-ui.css' />
-		<link rel="stylesheet" type="text/css" media="all" href="app/tabs.css"> 
-		
+		<link type="text/css" rel="stylesheet" media="all" href="./app/ConferenceApp.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/jQueryAddToCal.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/jQueryUI.css">
 		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
 		<script type="text/javascript" src="app/jquery.tools.min.js"></script> 
 		<script type='text/javascript' src='app/jquery-ui.min.js'></script>		
 		<script type='text/javascript' src='app/rfc3339date.js'></script>
 		<script type='text/javascript' src='app/jquery.addtocal.js'></script>
-
 		<script type="text/javascript" src="app/commonjs.js"></script>	
 		<script type="text/javascript" src="app/authors.js"></script>	
 		<script type="text/javascript" src="app/localcalendar.js"></script>	
 		<script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
-<style type="text/css">
- body{
-  margin:0;
-  padding:0 25px 0 0;
- }
- div#right-sidebar{
 
-  position:fixed;
-  top:0;
-  right:0;
-  width:25px;
-  border:1px solid #6291C0;
-  border-radius: 4px;
-background-color: #6291C0; 
+		<style type="text/css">
+		body{
+			margin:0;
+			padding:0 25px 0 0;
+		}
+		div#right-sidebar{
+			position:fixed;
+			top:0;
+			right:0;
+			width:25px;
+			border:1px solid #6291C0;
+			border-radius: 4px;
+			background-color: #6291C0; 
+		}
+		#right-sidebar a{
+			color: white;
+		}
+		ul.side{
+			list-style:none; 
+			margin:0 !important; 
+			font-size: 25px;
+			text-align: center;
+			font-family: Arial, serif; 
+			font-weight: bold;
+		}
+		@media screen{
+			body>div#right-sidebar{
+			color: white;
+			}
+		}
+		* html body{
+			overflow:hidden;
+		} 
+		* html div#content{
+			height:100%;
+			overflow:auto;
+		}
+		</style>
 
-	
- }
-#right-sidebar a{
-color: white;
+		<script type="text/javascript" >
+			document.addEventListener("deviceready", onDeviceReady, false);
+			$().ready(function() {
+				var $scrollingDiv = $("#right-sidebar");
+				$(window).scroll(function(){			
+					$scrollingDiv
+					.stop()
+					.animate({"marginTop": ($(window).scrollTop()+5) + "px"}, "fast" );			
+				});
+			});
 
-}
- 
-ul.side{
-	list-style:none; 
-	margin:0 !important; 
-	font-size: 25px;
-text-align: center;
-
-font-family: Arial, serif; 
-font-weight: bold;
- }
- @media screen{
-  body>div#right-sidebar{
-	color: white;
-  }
- }
- * html body{
-  overflow:hidden;
- } 
- * html div#content{
-  height:100%;
-  overflow:auto;
- }
-
-</style>
-<script type="text/javascript" >
-
-document.addEventListener("deviceready", onDeviceReady, false);
-$().ready(function() {
-		var $scrollingDiv = $("#right-sidebar");
- 
-		$(window).scroll(function(){			
-			$scrollingDiv
-				.stop()
-				.animate({"marginTop": ($(window).scrollTop()+5) + "px"}, "fast" );			
-		});
-	});
-
-
-
-    // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
-    //
-    function onDeviceReady() {
-        // Register the event listener
-        document.addEventListener("backbutton", onBackKeyDown, false);
-    }
-
-    // Handle the back button
-    //
-    function onBackKeyDown() {
-    location="index.html";
-    }
-
-</script>
+			// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+			//
+			function onDeviceReady() {
+				// Register the event listener
+				document.addEventListener("backbutton", onBackKeyDown, false);
+			}
+			// Handle the back button
+			//
+			function onBackKeyDown() {
+			location="index.html";
+			}
+		</script>
    </head>
 	
 	<body onload="init()">
-
-<div style=" background:#6291C0; padding:0px; marging-top:0px;">
-
-<div align="left" >
-<FORM><INPUT TYPE="BUTTON" VALUE="Go Back" class="backbutton"
-ONCLICK="location='index.html'"><INPUT TYPE="BUTTON" VALUE="Sort by last name" class="bigbutton"
-ONCLICK="location='AuthLName.html'"><INPUT TYPE="BUTTON" VALUE="Sort by first name" class="bigbutton"
-ONCLICK="location='AuthFName.html'"></FORM></div>
-</div><br>
-	
-<!-- Sidebar-->
- 
-<div id="right-sidebar" > 
-<ul class="side">
-<li><div><a href="#A" onmouseover="location='#A'"> A</a></div></li>
-<li><div><a href="#B" onmouseover="location='#B'"> B</a></div></li>
-<li><div><a href="#C" onmouseover="location='#C'"> C</a></div></li>
-<li><div><a href="#D" onmouseover="location='#D'"> D</a></div></li>
-<li><div><a href="#E" onmouseover="location='#E'"> E</a></div></li>
-<li><div><a href="#F" onmouseover="location='#F'"> F</a></div></li>
-<li><div><a href="#G" onmouseover="location='#G'"> G</a></div></li>
-<li><div><a href="#H" onmouseover="location='#H'"> H</a></div></li>
-<li><div><a href="#I" onmouseover="location='#I'"> I</a></div></li>
-<li><div><a href="#J" onmouseover="location='#J'"> J</a></div></li>
-<li><div><a href="#K" onmouseover="location='#K'"> K</a></div></li>
-<li><div><a href="#L" onmouseover="location='#L'"> L</a></div></li>
-<li><div><a href="#M" onmouseover="location='#M'"> M</a></div></li>
-<li><div><a href="#N" onmouseover="location='#N'"> N</a></div></li>
-<li><div><a href="#O" onmouseover="location='#O'"> O</a></div></li>
-<li><div><a href="#P" onmouseover="location='#P'"> P</a></div></li>
-<li><div><a href="#Q" onmouseover="location='#Q'"> Q</a></div></li>
-<li><div><a href="#R" onmouseover="location='#R'"> R</a></div></li>
-<li><div><a href="#S" onmouseover="location='#S'"> S</a></div></li>
-<li><div><a href="#T" onmouseover="location='#T'"> T</a></div></li>
-<li><div><a href="#U" onmouseover="location='#U'"> U</a></div></li>
-<li><div><a href="#V" onmouseover="location='#V'"> V</a></div></li>
-<li><div><a href="#W" onmouseover="location='#W'"> W</a></div></li>
-<li><div><a href="#X" onmouseover="location='#X'"> X</a></div></li>
-<li><div><a href="#Y" onmouseover="location='#Y'"> Y</a></div></li>
-<li><div><a href="#Z" onmouseover="location='#Z'"> Z</a></div></li>
-</ul>
-</div>
+		<div style="background:#6291C0">
+		<div><form><input type="button" value="Go Back" class="backbutton" onclick="location='index.html'"><input type="button" value="Sort by last name" class="bigbutton" onclick="location='AuthLName.html'"><input type="button" value="Sort by first name" class="bigbutton" onclick="location='AuthFName.html'"></form></div>
+		</div>
+		<!-- Sidebar-->
+ 		<div id="right-sidebar"> 
+			<ul class="side">
+			<li><div><a href="#A" onmouseover="location='#A'"> A</a></div></li>
+			<li><div><a href="#B" onmouseover="location='#B'"> B</a></div></li>
+			<li><div><a href="#C" onmouseover="location='#C'"> C</a></div></li>
+			<li><div><a href="#D" onmouseover="location='#D'"> D</a></div></li>
+			<li><div><a href="#E" onmouseover="location='#E'"> E</a></div></li>
+			<li><div><a href="#F" onmouseover="location='#F'"> F</a></div></li>
+			<li><div><a href="#G" onmouseover="location='#G'"> G</a></div></li>
+			<li><div><a href="#H" onmouseover="location='#H'"> H</a></div></li>
+			<li><div><a href="#I" onmouseover="location='#I'"> I</a></div></li>
+			<li><div><a href="#J" onmouseover="location='#J'"> J</a></div></li>
+			<li><div><a href="#K" onmouseover="location='#K'"> K</a></div></li>
+			<li><div><a href="#L" onmouseover="location='#L'"> L</a></div></li>
+			<li><div><a href="#M" onmouseover="location='#M'"> M</a></div></li>
+			<li><div><a href="#N" onmouseover="location='#N'"> N</a></div></li>
+			<li><div><a href="#O" onmouseover="location='#O'"> O</a></div></li>
+			<li><div><a href="#P" onmouseover="location='#P'"> P</a></div></li>
+			<li><div><a href="#Q" onmouseover="location='#Q'"> Q</a></div></li>
+			<li><div><a href="#R" onmouseover="location='#R'"> R</a></div></li>
+			<li><div><a href="#S" onmouseover="location='#S'"> S</a></div></li>
+			<li><div><a href="#T" onmouseover="location='#T'"> T</a></div></li>
+			<li><div><a href="#U" onmouseover="location='#U'"> U</a></div></li>
+			<li><div><a href="#V" onmouseover="location='#V'"> V</a></div></li>
+			<li><div><a href="#W" onmouseover="location='#W'"> W</a></div></li>
+			<li><div><a href="#X" onmouseover="location='#X'"> X</a></div></li>
+			<li><div><a href="#Y" onmouseover="location='#Y'"> Y</a></div></li>
+			<li><div><a href="#Z" onmouseover="location='#Z'"> Z</a></div></li>
+			</ul>
+		</div>
      		
-        <div id="programForDay" align="center">
+        <div align="center">
+		<!-- tab "panes" -->
+			<div id="resultF">  
 
-			<!-- tab "panes" -->
-
-			<div style="width: 95%; text-align: center">
-				<div id="resultF" style="padding-top:15px;">  
       		

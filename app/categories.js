@@ -48,7 +48,7 @@ function getAbstract(num, tableId) {
 	 } catch (err) {artAbstract="Not provided";	}
 
 	var element = "<div id='event' style='visibility:hidden'><div class='summary'>"+category+"</div><span class='dtstart'>"+start+"</span><span class='dtend'>"+end+"</span><div class='location'>"+loc+"</div><div class='details'>"+aName+"</div></div>";	
-	var listener = "<div class='textSmall' style='text-align:center;font-size:0.1em;'><a href='#null' id= 'btnW' class='ibutton'><div><b>Add to web calendar</b>"+element+"</div></a></div><a href='#null' id= 'btnL' class='ibutton2'><b>Add to local calendar</b></a></div>";	
+	var listener = "<div class='textSmall'><a href='#null' id= 'btnW' class='ibutton'><div><b>Add to web calendar</b>"+element+"</div></a></div><a href='#null' id= 'btnL' class='ibutton2'><b>Add to local calendar</b></a></div>";	
 	
 	abstrRow.innerHTML = "<td class='event'><div class='textSmall'><b>Authors: </b>"+author+"<br><hr/><div class='textSmall'><b>Abstract: </b>"+artAbstract+"<br><hr/><i>"+start+" - "+end+"</i><br><a href='rooms.html#"+roomId(loc)+"'>"+loc+"</a></div>"+listener+"</td>";
 

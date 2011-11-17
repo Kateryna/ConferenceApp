@@ -1,44 +1,33 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html>
 	<head>
-	    <title>Main page</title>
-
-		<link type="text/css" rel="stylesheet" media="all" href="app/layout.css">
-		<link rel="stylesheet" type="text/css" media="all" href="app/tabs.css"> 
-		<link type="text/css" rel="stylesheet" media="all" href="app/programday.css">
-		<link type="text/css" rel="stylesheet" media="all" href="app/default.css">
+	    <title>Conference program</title>
+		<link type="text/css" rel="stylesheet" media="all" href="./app/ConferenceApp.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/Tabs.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/Impromptu.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/jQueryUI.css">
+		<link type="text/css" rel="stylesheet" media="all" href="./app/jQueryAddToCal.css">
 		<script type="text/javascript" src="app/commonjs.js"></script>	
 		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
 		<script type="text/javascript" src="app/jquery.tools.min.js"></script> 
 		<script type="text/javascript" src="app/jquery-impromptu.js"></script>
 		<script type="text/javascript" src="app/programday.js"></script>
-			<script type="text/javascript" src="app/localcalendar.js"></script>	
+		<script type="text/javascript" src="app/localcalendar.js"></script>	
 		<script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
-		
-		
-			<link rel='stylesheet' type='text/css' href='app/jquery.addtocal.css' />
-		<link rel='stylesheet' type='text/css' href='app/jquery-ui.css' />
-		
-
 		<script type='text/javascript' src='app/jquery-ui.min.js'></script>		
 		<script type='text/javascript' src='app/rfc3339date.js'></script>
 		<script type='text/javascript' src='app/jquery.addtocal.js'></script>
+		
 		<script type="text/javascript" >
-		$(function() {
-			// setup ul.tabs to work as tabs for each div directly under div.panes
-			$("ul.tabs").tabs("div.panes > div");
-		});
-	</script>
-	
-    </head>
+			$(function() {
+				// setup ul.tabs to work as tabs for each div directly under div.panes
+				$("ul.tabs").tabs("div.panes > div");
+			});
+		</script>
+	</head>
 	
 	<body>
-<div align="left" style=" background:#6291C0; padding:0px; marging-top:0px;">
-<FORM ><INPUT TYPE="BUTTON" VALUE="Go Back" class="backbutton"
-ONCLICK="location='index.html'"></FORM>
-</div>
+		<div style="background:#6291C0"><form><input type="button" value="Go Back" class="backbutton" onclick="location='index.html'"></form></div>
         <div id="programForDay" align="center">
 			<!-- the tabs -->
 			<ul class="tabs">
