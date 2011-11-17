@@ -124,6 +124,27 @@ body, p, a, ul, li{
 	-moz-box-shadow:1px 1px 1px #333;
     -webkit-box-shadow:1px 1px 1px #333;
 }	
+.sessionThirdType {
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:1px;
+	padding-left:1px;
+	color:black;
+	font-size:13.5pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid;
+	background:#78daa2;
+	
+	}
+.sessionThirdType:hover{
+	background-color: #62b385;
+    box-shadow:1px 1px 1px #333;
+	-moz-box-shadow:1px 1px 1px #333;
+    -webkit-box-shadow:1px 1px 1px #333;
+}	
 .sessionFirstTypeDiv{
 	color:black;
 	padding-top:32px;
@@ -166,6 +187,25 @@ a {
 	font-weight: 400;
 }
 .event {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:1px;
+	padding-left:1px;
+	color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-family:Arial, sans-serif;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid;
+	background:#FDE9D9;
+}
+.eventAuthors {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:1px;
+	padding-left:1px;
+	vertical-align:middle;
 	border:1px solid;
 	background:#FDE9D9;
 }

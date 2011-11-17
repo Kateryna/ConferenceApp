@@ -93,7 +93,7 @@ if (tableId == 1){
 			var element = "<div id='event' style='visibility:hidden;font-size:1px;'><div class='summary'>"+category[j]+"</div><span class='dtstart'>"+start[j]+"</span><span class='dtend'>"+end[j]+"</span><div class='location'>"+loc[j]+"</div><div class='details'>"+submissionTitle[j]+"</div></div>";
 			var listener = "<div class='textSmall' style='text-align:center; '><a href='#null' id= 'btnW' class='ibutton'><div><b>Add to web calendar</b>"+element+"</div></a></div><a href='#null' id= 'btnL' class='ibutton2'><b>Add to local calendar</b></a></div>";
 			//console.log(listener);
-			abstrRow.innerHTML = "<td class='event'><div><b>Article: </b>" +submissionTitle[j]+"</div><hr/><div class='textSmall'><b>Authors: </b>"+allAuthArray[j]+"<br><hr/><b>Abstract: </b>"+artAbstracts[j]+"<br><i>"+start[j]+" - "+end[j]+"</i><br><a href='rooms.html#"+roomId(loc[j])+"'>"+loc[j]+"</a><br>"+category[j]+"</div>"+listener+"</td>";
+			abstrRow.innerHTML = "<td class='eventAuthors'><div class='articleAuthors'><b>Article: </b>" +submissionTitle[j]+"</div><hr/><div class='textSmall'><b>Authors: </b>"+allAuthArray[j]+"<br><hr/><b>Abstract: </b>"+artAbstracts[j]+"<br><i>"+start[j]+" - "+end[j]+"</i><br><a href='rooms.html#"+roomId(loc[j])+"'>"+loc[j]+"</a><br>"+category[j]+"</div>"+listener+"</td>";
 			document.getElementById(tableId).childNodes[0].insertBefore(abstrRow,	titlRow.nextSibling);
 
 			var btnL = document.getElementById("btnL");
