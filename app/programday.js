@@ -33,17 +33,17 @@ function getEventInfo(session){
 	}
 				
 	if (sessionCategory == 'Keynote'|| sessionCategory == 'Panel' || sessionCategory == 'Tutorial') {
-		txt = '<div class = "header"><div class = "sessionName">'+session+submissionTitle+'</div><a class="location" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentations">'+submissionAuthors+'</div>';
+		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+submissionTitle+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp">'+submissionAuthors+'</div>';
 	}
 	else if (sessionCategory == 'Challenges' || sessionCategory == 'PhD' || sessionCategory == 'Research' || sessionCategory == 'Industrial' || sessionCategory == 'Demo') {
 		var presentations = '';			
 		for (j=0; j<presentationOrderAr.length; j++){
-			presentations += '<p class = "presentationName">Presentation # '+presentationOrderAr[j]+'</p><p><b>Title:</b> "'+submissionTitleAr[j]+'"</p><p><b>Authors:</b> '+submissionAuthorsAr[j]+'</p>';
+			presentations += '<p class = "presentationNameImp">Presentation # '+presentationOrderAr[j]+'</p><p><b>Title:</b> "'+submissionTitleAr[j]+'"</p><p><b>Authors:</b> '+submissionAuthorsAr[j]+'</p>';
 		}		
-		txt ='<div class = "header"><div class = "sessionName">'+session+sessionTitle+'</div><a class="location" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentations">'+presentations+'</div>';
+		txt ='<div class = "headerImp"><div class = "sessionNameImp">'+session+sessionTitle+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp">'+presentations+'</div>';
 	} 
 	else {
-		txt = '<div class = "header"><div class = "sessionName">'+session+'</div><a class="location" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentations"><p>'+submissionAuthors+'</p><p>'+website+'</p></div>';	
+		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp"><p>'+submissionAuthors+'</p><p>'+website+'</p></div>';	
 	}
 	addToCalendar(session,loc);
 };
