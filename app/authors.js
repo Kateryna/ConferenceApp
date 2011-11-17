@@ -4,62 +4,6 @@ var articles = getDoc("XMLarticlesAbstr.xml", "article");
 var authorsArray = new Array();
 var firstAuthorsArray = new Array();
 
-var authorsDistinquishFN = new Array();
-var authorsDistinquishLN = new Array();
-for (i = 0; i < allRecords.length; i++) {
-allAuthors = allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue;
-var author = allAuthors.split(", ");
-	for (a in author){
-		var aName = author[a];
-	
-		var lastName =aName.split(" ",2)[1] +", "+aName;
-authorsDistinquishFN.push(aName);
-authorsDistinquishLN.push(lastName);
-}		
-}
-
-var authorsDistinquishFNSorted=eliminateDuplicates(authorsDistinquishFN.sort());
-var authorsDistinquishLNSorted=eliminateDuplicates(authorsDistinquishLN.sort());
-//console.log(authorsDistinquishFNSorted.length);
-//console.log(authorsDistinquishLNSorted);
-
-for (i = 0; i < allRecords.length; i++) {
-allAuthors = allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue;
-firstAuthor = allAuthors.split(",",1);
-firstAuthorsArray
-			.push(firstAuthor);
-}
-firstAuthorsArraySorted=eliminateDuplicates(firstAuthorsArray.sort());
-
-function eliminateDuplicates(arr) {
-	  var i,
-      len=arr.length,
-      out=[],
-      obj={};
- 
-  for (i=0;i<len;i++) {
-    obj[arr[i]]=0;
-  }
-  for (i in obj) {
-    out.push(i);
- }
-	  return out;
-}
-	
-
-function comparison(auth){
-for (i=0; i<allRecords.length; i++){	
-	var str=allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue.split(", ");
-	
-	console.log(str);
-	for (s in str){
-	if (str[s]==auth)
-	return true;
-}
-}	
-}
-
-
 function init(){
 	
 var h = window.innerHeight;
@@ -70,26 +14,12 @@ document.getElementById("right-sidebar").setAttribute("height",h-15);
   e.preventDefault();
 }, false);
 */
-$(function() {
-			// setup ul.tabs to work as tabs for each div directly under div.panes
-			$("ul.tabs").tabs("div.panes > div");
-		});
-	var tableF = makeTable("", authorsDistinquishFNSorted.length, 1, authorsDistinquishFNSorted, "1" );
-	var tableL = makeTable("", authorsDistinquishLNSorted.length, 1, authorsDistinquishLNSorted, "2");
+};
 
-if (document.getElementById("resultF")){
-document.getElementById("resultF").innerHTML = tableF;} else{
-document.getElementById("resultL").innerHTML = tableL;}
-
-
-	
-}
-
-function getAbstract(num, tableId) {
-//console.log("Now "+ tableId);	
+function getAbstract(tableId,num) {
+console.log("Now "+ tableId);	
 	//console.log("parent "+titlRow.parentNode.parentNode.getAttribute("id"));
 	
-
 if (tableId == 1){   
    
    var elements=document.getElementsByName("info"+num+tableId);
@@ -118,11 +48,14 @@ if (tableId == 1){
 	
 	
 		for (i=0; i<allRecords.length; i++)
-		{	
-			var str=allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue.split(", ");
+		{	var str;
+			try{str=allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue.split(", ");}
+			catch(err){str="NODATA";}
 			for (s in str)
 			{
-				if (str[s]==authorsDistinquishFNSorted[num])
+	//			console.log(titlRow.childNodes[0].childNodes[0].childNodes[0].firstChild.nodeValue);
+				if (str[s]== titlRow.childNodes[0].childNodes[0].childNodes[0].firstChild.nodeValue)
+				// authorsDistinquishFNSorted[num])
 				{
 				//	console.log("hurray+1");	
 					allAuthArray.push(allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue);
@@ -198,11 +131,15 @@ if (tableId == 1){
 	var submissionTitle=[];
 	var articleIDs=[];
 	var artAbstracts=[];	
-	var authorName = authorsDistinquishLNSorted[num].split(", ", 2);
+	var authorName = titlRow.childNodes[0].childNodes[0].childNodes[0].firstChild.nodeValue.split(", ", 2);
+	//authorsDistinquishLNSorted[num].split(", ", 2);
 //	console.log(authorName[1]);
 		for (i=0; i<allRecords.length; i++)
 		{	
-			var str=allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue.split(", ");
+		var str;
+			try{str=allRecords[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue.split(", ");}
+			catch(err){str="NODATA";}
+
 			for (s in str)
 			{
 				if (str[s]==authorName[1])
