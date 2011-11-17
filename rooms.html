@@ -2,37 +2,26 @@
 <html>
 	<head>
 		<title>Rooms</title>
-		<link rel="stylesheet" href="app/jQuery-iviewer.css" />
+		<link type="text/css" rel="stylesheet" href="app/jQuery-iviewer.css" />
 		<link type="text/css" rel="stylesheet" media="all" href="app/ConferenceApp.css">
-		<script type="text/javascript" src="app/jQuery-1.7.js" ></script>
-		<script type="text/javascript" src="app/jQuery-ui-1.8.16.custom.min.js" ></script>
-		<script type="text/javascript" src="app/jQuery-mousewheel-3.0.6.min.js" ></script>
-	    <script type="text/javascript" src="app/jQuery-iviewer.js" ></script>
-				
+						
 		<script type="text/javascript">
 									
 			function createRoomButton(){
 				var rooms = new Array ();
-				rooms = ["Floor 1", "Floor 2", "Floor 3", "Floor 4"];
+				rooms = ["Floor1", "Floor2", "Floor3", "Floor4"];
 				var roomButtons = ''; 
 				for (i=0; i<rooms.length; i++){
 					roomButtons += '<input type="button" value="'+rooms[i]+'" class="roomButton" onclick="getImage(\''+rooms[i]+'\')" />';
-				
 				}
 				document.getElementById("roomButtons").innerHTML = '<input type="button" value="Go Back" class="backbutton" onclick="location=\'index.html\'" />'+roomButtons;
-						
+			}
+			function getImage(room){
+				document.getElementById("roomButtons").innerHTML
+			
 			}
 				
-			function getImage(room){
-				//window.location.reload();
-				
-				$(document).ready(function(){
-					var iv = $("#roomDiv").iviewer({
-						src: "app/img/"+room+".png"
-					});
-				});
-			}; 
-			 
+
 		
 		</script>
 	
@@ -44,6 +33,6 @@
 			<div><form id="roomButtons"></form>
 			</div>
 		</div>
-		<div id="roomDiv"></div>
+		<div id="roomImg"></div>
 	</body>
 </html>
