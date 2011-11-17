@@ -242,13 +242,10 @@ a {
 	border:0px solid #c0c8cd;
 	border-radius:6px;
 }
-#roomDiv{
-	margin-left:auto;
-	margin-right:auto;
-	width: 95%;
-    height: 95%;
-	clear: center;
-   	position: relative;
+.roomImg{
+	margin-top: 7px;
+	margin-bottom: 5px;
+	width: 70%;
+    height: 70%;
 }
-
 

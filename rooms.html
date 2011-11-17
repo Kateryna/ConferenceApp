@@ -17,8 +17,8 @@
 				document.getElementById("roomButtons").innerHTML = '<input type="button" value="Go Back" class="backbutton" onclick="location=\'index.html\'" />'+roomButtons;
 			}
 			function getImage(room){
-				document.getElementById("roomButtons").innerHTML
-			
+				document.getElementById("roomImg").innerHTML = '<img class="roomImg" src="app/img/'+room+'.png"/>';
+				
 			}
 				
 
@@ -33,6 +33,6 @@
 			<div><form id="roomButtons"></form>
 			</div>
 		</div>
-		<div id="roomImg"></div>
+		<div id="roomImg" align="center"></div>
 	</body>
 </html>
