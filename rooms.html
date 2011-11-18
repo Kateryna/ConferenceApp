@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Rooms</title>
-		<link type="text/css" rel="stylesheet" href="app/jQuery-iviewer.css" />
 		<link type="text/css" rel="stylesheet" media="all" href="app/ConferenceApp.css">
+		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="app/imagePowerZoomer.js"></script>
 						
 		<script type="text/javascript">
 									
@@ -17,12 +18,12 @@
 				document.getElementById("roomButtons").innerHTML = '<input type="button" value="Go Back" class="backbutton" onclick="location=\'index.html\'" />'+roomButtons;
 			}
 			function getImage(room){
-				document.getElementById("roomImg").innerHTML = '<img class="roomImg" src="app/img/'+room+'.png"/>';
-				
+				document.getElementById("imgDiv").innerHTML = '<img id="roomImgID" class="roomImg" src="app/img/'+room+'.png"/>';
+				jQuery(document).ready(function($){ 
+						$('#roomImgID').addpowerzoom()
+				})		
 			}
-				
-
-		
+			
 		</script>
 	
 	</head>
@@ -32,6 +33,6 @@
 			<div><form id="roomButtons"></form>
 			</div>
 		</div>
-		<div id="roomImg" align="center"></div>
+		<div id="imgDiv" align="center"></div>
 	</body>
 </html>
