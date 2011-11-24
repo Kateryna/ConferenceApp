@@ -137,8 +137,7 @@ body, p, a, ul, li{
 	vertical-align:middle;
 	border:1px solid;
 	background:#78daa2;
-	
-	}
+}
 .sessionThirdType:hover{
 	background-color: #62b385;
     box-shadow:1px 1px 1px #333;
@@ -282,10 +281,54 @@ a {
 	border:0px solid #c0c8cd;
 	border-radius:6px;
 }
-.roomImg{
-	margin-top: 7px;
-	margin-bottom: 5px;
-	width: 70%;
-    height: 70%;
+.zoomContainer { 
+	border: 0px solid #000000;
+	border-radius:6px;
+	position: relative;
+} 
+#viewport { 
+	width: 70%; 
+	height: 550px; 
+	margin: 20px;
+	margin-top: 40px;
+	overflow: hidden; /*keep map contents from spilling over if JS is disabled*/ 
+	border:1px solid #c0c8cd;
+	border-radius:6px;
+} 
+.map-control {
+    float:right;
+	margin: 20px;
+	font-family: Arial, serif; 
+	font-size:14px;
+    font-size:20px;
+	font-weight:700;
 }
-
+.map-control .zoombutton {
+  	height: 35px;
+	width: 82px;
+	font-family: Arial, serif; 
+	font-weight: bold;
+	font-size: 17px;
+	border:0px solid #c0c8cd;
+	border-radius:6px;
+}
+#zoominbutton, #zoomoutbutton  {
+	background: url(img/zoombtn.png) 0 0 ;
+	text-align: center;
+}
+#upbutton {
+	background: url(img/upbtn.png) 0 0 ;
+	text-align: right;
+}
+#downbutton {
+	background: url(img/downbtn.png) 0 0 ;
+	text-align: right;
+}
+#leftbutton {
+	background: url(img/leftbtn.png) 0 0 ;
+	text-align: right;
+}
+#rightbutton {
+	background: url(img/rightbtn.png) 0 0 ;
+	text-align: right;
+}

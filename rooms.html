@@ -4,28 +4,41 @@
 		<title>Rooms</title>
 		<link type="text/css" rel="stylesheet" media="all" href="app/ConferenceApp.css">
 		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
-		<script type="text/javascript" src="app/imagePowerZoomer.js"></script>
-						
+		<script type="text/javascript" src="app/jQueryMapPlugin.js"></script>
+				
 		<script type="text/javascript">
-									
 			function createRoomButton(){
 				var rooms = new Array ();
 				rooms = ["Floor1", "Floor2", "Floor3", "Floor4"];
 				var roomButtons = ''; 
 				for (i=0; i<rooms.length; i++){
 					roomButtons += '<input type="button" value="'+rooms[i]+'" class="roomButton" onclick="getImage(\''+rooms[i]+'\')" />';
+					document.getElementById("viewport").innerHTML = '<div style="height: 550px; width: 100%;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 1880px;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div>'; 
 				}
 				document.getElementById("roomButtons").innerHTML = '<input type="button" value="Go Back" class="backbutton" onclick="location=\'index.html\'" />'+roomButtons;
+				zoomPlugin();
 			}
 			function getImage(room){
-				document.getElementById("imgDiv").innerHTML = '<img id="roomImgID" class="roomImg" src="app/img/'+room+'.png"/>';
-				jQuery(document).ready(function($){ 
-						$('#roomImgID').addpowerzoom()
-				})		
+				document.getElementById("viewport").innerHTML = '<div style="height: 550px; width: 100%;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 1880px;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div>'; 
+				zoomPlugin();			
 			}
-			
+			function zoomPlugin(){
+				jQuery(document).ready(function() { 
+					$("#viewport").mapbox({ 
+						layerSplit: 4
+					}); 
+					jQuery(".map-control a").click(function() {
+						var viewport = $("#viewport"); 
+						if(this.className == "zoom" || this.className == "back") { 
+							viewport.mapbox(this.className, 2);
+						} else { 
+							viewport.mapbox(this.className); 
+						} 
+						return false; 
+					}); 
+				}) 
+			}
 		</script>
-	
 	</head>
 
 	<body onload="createRoomButton()">
@@ -33,6 +46,16 @@
 			<div><form id="roomButtons"></form>
 			</div>
 		</div>
-		<div id="imgDiv" align="center"></div>
+		<div class="zoomContainer ">
+			<div class="map-control">
+				<a href="#zoom" class="zoom"><input type="button" value="Zoom" class="zoombutton" id="zoominbutton" /></a><br/><br/>
+				<a href="#zoom_out" class="back"><input type="button" value="Back" class="zoombutton" id="zoomoutbutton" /></a><br/><br/>
+				<a href="#up" class="up"><input type="button" value="Up" class="zoombutton" id="upbutton" /></a><br/><br/>
+				<a href="#down" class="down"><input type="button" value="Down" class="zoombutton" id="downbutton" /></a><br/><br/>
+				<a href="#left" class="left"><input type="button" value="Left" class="zoombutton" id="leftbutton" /></a><br/><br/>
+				<a href="#right" class="right"><input type="button" value="Right" class="zoombutton" id="rightbutton" /></a>
+			</div>
+			<div id="viewport"></div> 
+		</div>
 	</body>
 </html>
