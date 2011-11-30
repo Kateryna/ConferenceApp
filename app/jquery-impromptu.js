@@ -96,7 +96,7 @@
 					states += '<button name="' + options.prefix + '_' + statename + '_button' + v.title.replace(/[^a-z0-9]+/gi,'') + '" id="' + options.prefix + '_' + statename + '_button' + v.title.replace(/[^a-z0-9]+/gi,'') + '" value="' + v.value + '">' + v.title + '</button>';
 				else states += '<button name="' + options.prefix + '_' + statename + '_button' + k + '" id="' + options.prefix +	'_' + statename + '_button' + k + '" value="' + v + '">' + k + '</button>';
 ////////////////////////////ID, is used in program.js to bind webcalendar to this element				
-console.log(options.prefix);			
+//console.log(options.prefix);			
 			});
 			states += '</div></div>';
 		});

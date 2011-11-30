@@ -48,6 +48,3 @@ ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
 	cursor:default !important; 
 	color:#000 !important;
 }
-/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
-.panes div {
-}

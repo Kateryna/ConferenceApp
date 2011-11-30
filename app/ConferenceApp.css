@@ -56,6 +56,14 @@ body, p, a, ul, li{
 	border:0px solid #c0c8cd;
 	border-radius:6px;
 }
+.backbuttonNew {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.backbuttonNew  img{
+	height: 65px;
+	width: 130px;
+}
 .textSmall{
 	padding-top: 15px;	
 	padding-left: 20px;	
@@ -267,68 +275,47 @@ a {
 }
 
 /* Rooms */
-.roomButton {
-	height: 35px;
-	width: 150px;
-	margin: 5px;
-	margin-left: 20px;
-	font-family: Arial, serif; 
-	font-weight: bold;
-	text-align: center;
-	color: black;
-	font-size:14px;
-	background: url(img/bigbtn.png) 0 0 ;
-	border:0px solid #c0c8cd;
-	border-radius:6px;
-}
-.zoomContainer { 
-	border: 0px solid #000000;
-	border-radius:6px;
-	position: relative;
-} 
 #viewport { 
-	width: 70%; 
-	height: 550px; 
-	margin: 20px;
-	margin-top: 40px;
+	width: 95%; 
+	height: 470px; 
+	top: 55px;
+	margin: 20px auto;
 	overflow: hidden; /*keep map contents from spilling over if JS is disabled*/ 
 	border:1px solid #c0c8cd;
 	border-radius:6px;
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
 } 
 .map-control {
-    float:right;
-	margin: 20px;
-	font-family: Arial, serif; 
-	font-size:14px;
-    font-size:20px;
-	font-weight:700;
+	top: 55px;
+	width: 95%; 
+    position: relative;
 }
-.map-control .zoombutton {
-  	height: 35px;
-	width: 82px;
-	font-family: Arial, serif; 
-	font-weight: bold;
-	font-size: 17px;
-	border:0px solid #c0c8cd;
+.zoombutton {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.zoombutton img {
+	height: 85px;
+	width: 85px;
+}
+.movebutton {
+	margin-top: -87px;
+  	float: right;
+}
+.movebutton img {
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+	border: 1px solid #c0c8cd;
 	border-radius:6px;
-}
-#zoominbutton, #zoomoutbutton  {
-	background: url(img/zoombtn.png) 0 0 ;
-	text-align: center;
-}
-#upbutton {
-	background: url(img/upbtn.png) 0 0 ;
-	text-align: right;
-}
-#downbutton {
-	background: url(img/downbtn.png) 0 0 ;
-	text-align: right;
-}
-#leftbutton {
-	background: url(img/leftbtn.png) 0 0 ;
-	text-align: right;
-}
-#rightbutton {
-	background: url(img/rightbtn.png) 0 0 ;
-	text-align: right;
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.3);
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+} 
+#upBtn, #downBtn {
+	margin-left: 43px;
 }

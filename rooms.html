@@ -3,25 +3,37 @@
 	<head>
 		<title>Rooms</title>
 		<link type="text/css" rel="stylesheet" media="all" href="app/ConferenceApp.css">
+		<link type="text/css" rel="stylesheet" media="all" href="app/jQueryDropDown.css">
 		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
 		<script type="text/javascript" src="app/jQueryMapPlugin.js"></script>
-				
+		<script type="text/javascript" src="app/jQueryDropDown.js"></script>
+						
 		<script type="text/javascript">
-			function createRoomButton(){
+			
+			function createViewport(data){
+				viewport = '<div style="height: 500px; width: 100%;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 2200px;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div>';
+				return viewport;
+			}
+			
+			function showViewport(){
 				var rooms = new Array ();
 				rooms = ["Floor1", "Floor2", "Floor3", "Floor4"];
-				var roomButtons = ''; 
+				var roomDropDown = ''; 
 				for (i=0; i<rooms.length; i++){
-					roomButtons += '<input type="button" value="'+rooms[i]+'" class="roomButton" onclick="getImage(\''+rooms[i]+'\')" />';
-					document.getElementById("viewport").innerHTML = '<div style="height: 550px; width: 100%;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 1880px;"><img src="app/img/'+rooms[0]+'.png" /><div class="mapcontent"></div></div>'; 
+					roomDropDown +='<li><span>'+rooms[i]+'</span></li>';
 				}
-				document.getElementById("roomButtons").innerHTML = '<input type="button" value="Go Back" class="backbutton" onclick="location=\'index.html\'" />'+roomButtons;
+				document.getElementById("dropDownList").innerHTML = '<div><p></p></div><ul>'+roomDropDown+'</ul>';
+				
+				$("#dropDownList").jDropDown({selected: 0, callback: callback});
+				document.getElementById("viewport").innerHTML = createViewport(rooms[0]); 
 				zoomPlugin();
-			}
-			function getImage(room){
-				document.getElementById("viewport").innerHTML = '<div style="height: 550px; width: 100%;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 1880px;"><img src="app/img/'+room+'.png" /><div class="mapcontent"></div></div>'; 
-				zoomPlugin();			
-			}
+						
+				function callback(index, room){
+					document.getElementById("viewport").innerHTML = createViewport(room); 
+					zoomPlugin();
+				}
+			}	
+
 			function zoomPlugin(){
 				jQuery(document).ready(function() { 
 					$("#viewport").mapbox({ 
@@ -30,32 +42,33 @@
 					jQuery(".map-control a").click(function() {
 						var viewport = $("#viewport"); 
 						if(this.className == "zoom" || this.className == "back") { 
-							viewport.mapbox(this.className, 2);
+							viewport.mapbox(this.className);	
 						} else { 
-							viewport.mapbox(this.className); 
+							viewport.mapbox(this.className, 100); 
 						} 
 						return false; 
 					}); 
 				}) 
 			}
+			
 		</script>
 	</head>
 
-	<body onload="createRoomButton()">
-		<div style="background:#6291C0">
-			<div><form id="roomButtons"></form>
+	<body onload="showViewport()">
+		<div class="backbuttonNew"><img src="app/img/backbtnNew.png" onclick="location='index.html'" /></div>
+		<div id="dropDownList"></div>
+		<div id="viewport"></div> 
+		<div class="map-control">
+			<div class="zoombutton">
+				<a href="#zoom" class="zoom"><img id="zoomin" src="app/img/zoominbtn.png" /></a>
+				<a href="#zoom_out" class="back"><img id="zoomout" src="app/img/zoomoutbtn.png" /></a>
 			</div>
-		</div>
-		<div class="zoomContainer ">
-			<div class="map-control">
-				<a href="#zoom" class="zoom"><input type="button" value="Zoom" class="zoombutton" id="zoominbutton" /></a><br/><br/>
-				<a href="#zoom_out" class="back"><input type="button" value="Back" class="zoombutton" id="zoomoutbutton" /></a><br/><br/>
-				<a href="#up" class="up"><input type="button" value="Up" class="zoombutton" id="upbutton" /></a><br/><br/>
-				<a href="#down" class="down"><input type="button" value="Down" class="zoombutton" id="downbutton" /></a><br/><br/>
-				<a href="#left" class="left"><input type="button" value="Left" class="zoombutton" id="leftbutton" /></a><br/><br/>
-				<a href="#right" class="right"><input type="button" value="Right" class="zoombutton" id="rightbutton" /></a>
+			<div class="movebutton">
+				<a href="#up" class="up"><img id="upBtn" src="app/img/upbtn.png" /></a><br>
+				<a href="#left" class="left"><img id="leftBtn" src="app/img/leftbtn.png" /></a>
+				<a href="#right" class="right"><img id="rightBtn" src="app/img/rightbtn.png" /></a><br>
+				<a href="#down" class="down"><img id="downBtn" src="app/img/downbtn.png" /></a>
 			</div>
-			<div id="viewport"></div> 
 		</div>
 	</body>
 </html>
