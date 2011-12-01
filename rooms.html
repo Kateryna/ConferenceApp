@@ -5,70 +5,35 @@
 		<link type="text/css" rel="stylesheet" media="all" href="app/ConferenceApp.css">
 		<link type="text/css" rel="stylesheet" media="all" href="app/jQueryDropDown.css">
 		<script type="text/javascript" src="app/jquery-1.6.2.min.js"></script>
-		<script type="text/javascript" src="app/jQueryMapPlugin.js"></script>
 		<script type="text/javascript" src="app/jQueryDropDown.js"></script>
 						
 		<script type="text/javascript">
+			var rooms = ["Floor1", "Floor2", "Floor3", "Floor4"];
 			
-			function createViewport(data){
-				viewport = '<div style="height: 500px; width: 100%;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div><div style="height: 1190px; width: 1400px;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div><div style="height: 1880px; width: 2200px;"><img src="app/img/'+data+'.png" /><div class="mapcontent"></div></div>';
-				return viewport;
-			}
-			
-			function showViewport(){
-				var rooms = new Array ();
-				rooms = ["Floor1", "Floor2", "Floor3", "Floor4"];
+			function createDropDownList(){
 				var roomDropDown = ''; 
 				for (i=0; i<rooms.length; i++){
 					roomDropDown +='<li><span>'+rooms[i]+'</span></li>';
 				}
 				document.getElementById("dropDownList").innerHTML = '<div><p></p></div><ul>'+roomDropDown+'</ul>';
-				
+				document.getElementById("roomView").innerHTML = '<img src="app/img/'+rooms[0]+'.png" />'; 
+				dropDownPlugin();
+			}
+			function dropDownPlugin(){
 				$("#dropDownList").jDropDown({selected: 0, callback: callback});
-				document.getElementById("viewport").innerHTML = createViewport(rooms[0]); 
-				zoomPlugin();
-						
 				function callback(index, room){
-					document.getElementById("viewport").innerHTML = createViewport(room); 
-					zoomPlugin();
+					document.getElementById("roomView").innerHTML = '<img src="app/img/'+room+'.png" />'; 
 				}
 			}	
-
-			function zoomPlugin(){
-				jQuery(document).ready(function() { 
-					$("#viewport").mapbox({ 
-						layerSplit: 4
-					}); 
-					jQuery(".map-control a").click(function() {
-						var viewport = $("#viewport"); 
-						if(this.className == "zoom" || this.className == "back") { 
-							viewport.mapbox(this.className);	
-						} else { 
-							viewport.mapbox(this.className, 100); 
-						} 
-						return false; 
-					}); 
-				}) 
-			}
-			
 		</script>
 	</head>
 
-	<body onload="showViewport()">
-		<div class="backbuttonNew"><img src="app/img/backbtnNew.png" onclick="location='index.html'" /></div>
-		<div id="dropDownList"></div>
-		<div id="viewport"></div> 
-		<div class="map-control">
-			<div class="zoombutton">
-				<a href="#zoom" class="zoom"><img id="zoomin" src="app/img/zoominbtn.png" /></a>
-				<a href="#zoom_out" class="back"><img id="zoomout" src="app/img/zoomoutbtn.png" /></a>
-			</div>
-			<div class="movebutton">
-				<a href="#up" class="up"><img id="upBtn" src="app/img/upbtn.png" /></a><br>
-				<a href="#left" class="left"><img id="leftBtn" src="app/img/leftbtn.png" /></a>
-				<a href="#right" class="right"><img id="rightBtn" src="app/img/rightbtn.png" /></a><br>
-				<a href="#down" class="down"><img id="downBtn" src="app/img/downbtn.png" /></a>
-			</div>
+	<body onload="createDropDownList()">
+	<!--	<div style="background:#6291C0"><a class="buttonNew" onclick="location='index.html'"><span>Back</span></a></div> -->
+		<div style="background:#6291C0"><form><input type="button" value="Back" class="buttonNew" onclick="location='index.html'"></form></div>
+		<div class="roomContainer">
+			<div id="dropDownList"></div>
+			<div id="roomView"></div> 
 		</div>
 	</body>
 </html>
