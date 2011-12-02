@@ -1,19 +1,22 @@
 .jDropDown{
 	width: 200px;
 	float: right;
-	margin: 20px;
-	font-family: 'arial';
+	margin-top: -20px;
+	font-family: Arial, sans-serif;
+	font-style:italic;
 	font-size: 18px;
 	font-weight: 700;
+	color: #333;
+	text-shadow: 0px 1px 1px #888;
 	position: relative;
 }
 .jDropDown div{
 	width: 100%;
 	height: 35px;
 	float: left;
-	border: 1px solid #aaa;
+	border: 2px solid #aaa;
 	border-radius: 5px 5px 0px 0px;
-	background: #fff url('../app/img/arrowDown.png') no-repeat 180px 12px;
+	background: #c9dfff url('../img/arrowDown.png') no-repeat 180px 12px;
 	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
 	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);
 	-o-box-shadow:0 0 4px rgba(0,0,0,0.3);
@@ -34,14 +37,14 @@
 	display: none;
 	position: absolute;
 	left: 0px;
-	top: 37px;
+	top: 39px;
 	z-index: 100000;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	list-style: none;
-	border: 1px solid #aaa;
+	border: 2px solid #aaa;
 	border-top: 0px;
-	background-color: #fff;
+	background-color: #e3eefe;
 	border-radius: 0px 0px 5px 5px;
 	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.3);
 	-moz-box-shadow:0 0 4px rgba(0,0,0,0.3);

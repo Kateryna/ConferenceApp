@@ -16,42 +16,44 @@
 		<script type="text/javascript" charset="utf-8" src="app/phonegap-1.0.0.js"></script>      
 
 		<style type="text/css">
-		body{
-			margin:0;
-			padding:0 25px 0 0;
-		}
-		div#right-sidebar{
-			position:fixed;
-			top:0;
-			right:0;
-			width:25px;
-			border:1px solid #6291C0;
-			border-radius: 4px;
-			background-color: #6291C0; 
-		}
-		#right-sidebar a{
-			color: white;
-		}
-		ul.side{
-			list-style:none; 
-			margin:0 !important; 
-			font-size: 25px;
-			text-align: center;
-			font-family: Arial, serif; 
-			font-weight: bold;
-		}
-		@media screen{
-			body>div#right-sidebar{
-			color: white;
+			body{
+				margin:0;
+				padding: 0 35px 0 0;
 			}
-		}
-		* html body{
-			overflow:hidden;
-		} 
-		* html div#content{
-			height:100%;
-			overflow:auto;
-		}
+			div#right-sidebar{
+				position:fixed;
+				top:0;
+				right:0;
+				width: 35px;
+				border:1px solid #666666;
+				border-radius: 4px;
+				background-color: #92beff; 
+			}
+			#right-sidebar a{
+				color: #fff;
+				text-shadow: 4px 2px 6px #333;
+				font-style:italic;
+			}
+			ul.side{
+				list-style:none; 
+				margin:0 !important; 
+				font-size: 25px;
+				text-align: center;
+				font-family: Arial, serif; 
+				font-weight: bold;
+			}
+			@media screen{
+				body>div#right-sidebar{
+				color: white;
+				}
+			}
+			* html body{
+				overflow:hidden;
+			} 
+			* html div#content{
+				height:100%;
+				overflow:auto;
+			}
 		</style>
 
 		<script type="text/javascript" >
@@ -79,10 +81,9 @@
 		</script>
    </head>
 	
-	<body onload="init()">
-		<div style="background:#6291C0">
-		<div><form><input type="button" value="Go Back" class="backbutton" onclick="location='index.html'"><input type="button" value="Sort by last name" class="bigbutton" onclick="location='AuthLName.html'"><input type="button" value="Sort by first name" class="bigbutton" onclick="location='AuthFName.html'"></form></div>
-		</div>
+	<body>
+		<div class="pageHeaderLine"><input type="button" value="Back" class="backbutton" onclick="location='index.html'"><span class="pageTitle">Authors</span></div>
+		<div><input type="button" value="Sort by first name" class="authorsbutton" onclick="location='AuthFName.html'"><input type="button" value="Sort by last name" class="authorsbutton" onclick="location='AuthLName.html'"></div>
 		<!-- Sidebar-->
  		<div id="right-sidebar"> 
 			<ul class="side">

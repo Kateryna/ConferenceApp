@@ -16,21 +16,20 @@
 					roomDropDown +='<li><span>'+rooms[i]+'</span></li>';
 				}
 				document.getElementById("dropDownList").innerHTML = '<div><p></p></div><ul>'+roomDropDown+'</ul>';
-				document.getElementById("roomView").innerHTML = '<img src="app/img/'+rooms[0]+'.png" />'; 
+				document.getElementById("roomView").innerHTML = '<img src="img/'+rooms[0]+'.png" />'; 
 				dropDownPlugin();
 			}
 			function dropDownPlugin(){
 				$("#dropDownList").jDropDown({selected: 0, callback: callback});
 				function callback(index, room){
-					document.getElementById("roomView").innerHTML = '<img src="app/img/'+room+'.png" />'; 
+					document.getElementById("roomView").innerHTML = '<img src="img/'+room+'.png" />'; 
 				}
 			}	
 		</script>
 	</head>
 
 	<body onload="createDropDownList()">
-	<!--	<div style="background:#6291C0"><a class="buttonNew" onclick="location='index.html'"><span>Back</span></a></div> -->
-		<div style="background:#6291C0"><form><input type="button" value="Back" class="buttonNew" onclick="location='index.html'"></form></div>
+		<div class="pageHeaderLine"><input type="button" value="Back" class="backbutton" onclick="location='index.html'"><span class="pageTitle">Locations</span></div>
 		<div class="roomContainer">
 			<div id="dropDownList"></div>
 			<div id="roomView"></div> 
