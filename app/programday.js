@@ -15,9 +15,9 @@ function getEventInfo(session){
 	for (i=0; i<records.length; i++) {
 		sessionName = records[i].getElementsByTagName("sessionName")[0].childNodes[0].nodeValue;
 		if (sessionName == session) {
-			sessionCategory = sessionName.split(" ", 1);
+			sessionCategory = records[i].getElementsByTagName("sessionCategory")[0].childNodes[0].nodeValue;
 			loc = records[i].getElementsByTagName("location")[0].childNodes[0].nodeValue;
-			if (sessionCategory == 'Research' || sessionCategory == 'Industrial' || sessionCategory == 'Demo'|| sessionCategory == 'Challenges' || sessionCategory == 'PhD') {
+			if (sessionCategory == 'Research' || sessionCategory == 'Industrial' || sessionCategory == 'Demo'|| sessionCategory == 'ChallengesAndVision' || sessionCategory == 'PhDWorkshop') {
 				try {sessionTitle = ': '+records[i].getElementsByTagName("sessionTitle")[0].childNodes[0].nodeValue; } catch (err) {sessionTitle = "";}
 				presentationOrderAr.push (records[i].getElementsByTagName("presentationOrder")[0].childNodes[0].nodeValue);	
 				submissionTitleAr.push (records[i].getElementsByTagName("submissionTitle")[0].childNodes[0].nodeValue);	
@@ -26,6 +26,7 @@ function getEventInfo(session){
 				try {submissionTitle = ': '+records[i].getElementsByTagName("submissionTitle")[0].childNodes[0].nodeValue; } catch (err) {sessionTitle = "";}
 				try {submissionAuthors = '<b>Authors:</b> '+records[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue; } catch (err) {submissionAuthors = "";}
 			} else {
+				try {sessionTitle = ': '+records[i].getElementsByTagName("sessionTitle")[0].childNodes[0].nodeValue; } catch (err) {sessionTitle = "";}
 				try {submissionAuthors = '<b>Organizers:</b> '+records[i].getElementsByTagName("submissionAuthors")[0].childNodes[0].nodeValue; } catch (err) {submissionAuthors = "";}
 				try {website = '<b>Website:</b> <a href="'+records[i].getElementsByTagName("website")[0].childNodes[0].nodeValue+'">'+records[i].getElementsByTagName("website")[0].childNodes[0].nodeValue+'</a>'; } catch (err) {website = "";}
 			}
@@ -33,17 +34,17 @@ function getEventInfo(session){
 	}
 				
 	if (sessionCategory == 'Keynote'|| sessionCategory == 'Panel' || sessionCategory == 'Tutorial') {
-		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+submissionTitle+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp">'+submissionAuthors+'</div>';
+		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+submissionTitle+'</div><a class="locationImp" href="rooms.html">('+loc+')</a></div><br><div class = "allPresentationsImp">'+submissionAuthors+'</div>';
 	}
-	else if (sessionCategory == 'Challenges' || sessionCategory == 'PhD' || sessionCategory == 'Research' || sessionCategory == 'Industrial' || sessionCategory == 'Demo') {
+	else if (sessionCategory == 'ChallengesAndVision' || sessionCategory == 'PhDWorkshop' || sessionCategory == 'Research' || sessionCategory == 'Industrial' || sessionCategory == 'Demo') {
 		var presentations = '';			
 		for (j=0; j<presentationOrderAr.length; j++){
 			presentations += '<p class = "presentationNameImp">Presentation # '+presentationOrderAr[j]+'</p><p><b>Title:</b> "'+submissionTitleAr[j]+'"</p><p><b>Authors:</b> '+submissionAuthorsAr[j]+'</p>';
 		}		
-		txt ='<div class = "headerImp"><div class = "sessionNameImp">'+session+sessionTitle+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp">'+presentations+'</div>';
+		txt ='<div class = "headerImp"><div class = "sessionNameImp">'+session+sessionTitle+'</div><a class="locationImp" href="rooms.html">('+loc+')</a></div><br><div class = "allPresentationsImp">'+presentations+'</div>';
 	} 
 	else {
-		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+'</div><a class="locationImp" href="rooms.html#'+roomId(loc)+'">('+loc+')</a></div><br><div class = "allPresentationsImp"><p>'+submissionAuthors+'</p><p>'+website+'</p></div>';	
+		txt = '<div class = "headerImp"><div class = "sessionNameImp">'+session+sessionTitle+'</div><a class="locationImp" href="rooms.html">('+loc+')</a></div><br><div class = "allPresentationsImp"><p>'+submissionAuthors+'</p><p>'+website+'</p></div>';	
 	}
 	addToCalendar(session,loc);
 };

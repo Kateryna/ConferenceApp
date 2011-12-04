@@ -3,9 +3,29 @@ function goToWord(wordId){
 	return false;	
 }
 
+function fastMakeTable(buf, row, col, cell, tableId) {
+	var COLS = col;
+	var ROWS = row;
+
+	buf += "<div align='center'><table id='"+tableId+"' style='bordborder-collapse:collapse;table-layout:fixed;width:90%'>";
+	for ( var i = 0; i < ROWS; i++) {
+		var row = "<tr id='article" + i + tableId+"'>";
+		for ( var j = 0; j < COLS; j++) {
+			row += "<td class='sessionFirstTypeList'><a onclick='getAbstract("
+					+ i +","+tableId+ ")'><div>" + cell[i] + "</div></a></td>";
+		}
+		row += "</tr>";
+
+		buf += row;
+	}
+	buf += "</table><br></div>";
+
+	return buf;
+};
+
 
 var articlesIdArray = new Array();
-var articles = getDoc("XMLarticlesAbstr.xml", "article");
+var articles = getDoc("ArticlesAbstract.xml", "article");
 var allRecords = getDoc("Program.xml", "record");
 //console.log(allRecords[3]);
 
@@ -309,7 +329,7 @@ parent.removeChild(element);
 
 	var listener = "<div class='textSmall' style='text-align:center; font-size:1px;'><a href='#null' id= 'btnW' class='ibutton'><div><b>Add to web calendar</b>"+element+"</div></a></div><a href='#null' id= 'btnL' class='ibutton2'><b>Add to local calendar</b></a></div>";
 
-	abstrRow.innerHTML = "<td class='event'><div class='textSmall'>" + resultArticleAbstr[num]+"</div><hr/><div class='textSmall'><b>Authors: </b>"+authors[num]+"</div><div class='textSmall'><i>"+start[num]+" - "+end[num]+"</i></div><div class='textSmall'><a href='rooms.html#"+roomId(loc[num])+"'>"+loc[num]+"</a><br><div>"+category[num]+"</div></div>"+listener+"</td>";
+	abstrRow.innerHTML = "<td class='event'><div class='textSmall'>" + resultArticleAbstr[num]+"</div><hr/><div class='textSmall'><b>Authors: </b>"+authors[num]+"</div><div class='textSmall'><i>"+start[num]+" - "+end[num]+"</i></div><div class='textSmall'><a href='rooms.html'>"+loc[num]+"</a><br><div>"+category[num]+"</div></div>"+listener+"</td>";
  	document.getElementById(tableId).childNodes[0].insertBefore(abstrRow,
 			titlRow.nextSibling);
 	var btn = document.getElementById("btnL")
